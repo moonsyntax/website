@@ -25,12 +25,7 @@
 		</div>
 		<div class="flex flex-row justify-center underline">
 			<a href="https://medium.com/moonsyntax" target="_blank" rel="noopener noreferrer">
-				<div class="inline-flex items-center bg-white leading-none rounded-full p-2 shadow text-teal text-sm">
-					<span class="inline-flex bg-pink-600 text-white rounded-full h-6 px-3 justify-center items-center">
-						Read More
-					</span>
-					<span class="inline-flex px-2 text-pink-600"> View all posts </span>
-				</div>
+				<Buttonx textinput="View all posts" />
 			</a>
 		</div>
 	</div>

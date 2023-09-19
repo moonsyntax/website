@@ -14,9 +14,9 @@
 				</div>
 
 				<div class="my-4">
-					<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-						<a href="https://calendly.com/moonsyntax" target="_blank">Schedule a Meeting</a>
-					</button>
+					<a href="https://calendly.com/moonsyntax" target="_blank">
+						<Buttonx textinput="Schedule a Meeting" />
+					</a>
 				</div>
 			</div>
 		</section>

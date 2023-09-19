@@ -14,12 +14,12 @@
 				<div class="pt-3 space-y-3 space-y-4 leading-6 text-left xl:pt-3 xl:space-y-5 uppercase">
 					<div class="relative inline-block mr-3">
 						<a href="https://t.me/moonsyntax">
-							<Button textinput="Telegram" />
+							<Buttonx textinput="Telegram" />
 						</a>
 					</div>
 					<div class="relative inline-block mr-3">
 						<a href="https://twitter.com/moonsyntax">
-							<Button textinput="Twitter" />
+							<Buttonx textinput="Twitter" />
 						</a>
 					</div>
 				</div>
