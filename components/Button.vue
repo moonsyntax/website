@@ -1,0 +1,23 @@
+<template>
+  <div>
+    <div class="w-full h-full bg-black ml-0.5 mt-0.5 rounded-lg absolute left-0 top-0"></div>
+
+    <div
+      class="relative inline-block px-5 py-2 text-lg font-bold text-center text-black no-underline whitespace-no-wrap align-middle bg-white border-2 border-gray-900 border-solid rounded-md shadow-xs cursor-pointer select-none hover:bg-black hover:shadow-xs hover:text-white focus:shadow-xs transform transition-transform duration-300 hover:scale-105"
+    >
+      {{ textinput }}
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "Button",
+  props: {
+    textinput: {
+      type: String,
+      required: true,
+    },
+  },
+};
+</script>

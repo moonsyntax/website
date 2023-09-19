@@ -1,0 +1,40 @@
+<template>
+	<div>
+		<section class="grid grid-cols-1 lg:grid-cols-2 gap-2">
+			<div class="m-auto lg:p-0 p-8">
+				<div class="text-left text-4xl leading-tight pt-4 font-semibold">MOON <Synb textinput="SYNTAX" /></div>
+
+				<div class="my-8 text-2xl text-left">
+					The decentralized <Synb textinput="organization" /> that's shaking up the world of blockchain
+					<Synb textinput="startups" />. With a focus on <Synb textinput="developing" />,
+					<Synb textinput="managing" />, and <Synb textinput="funding" /> cutting-edge projects, our team of
+					<Synb textinput="experts" /> delivers unparalleled support and guidance.
+				</div>
+
+				<div class="pt-3 space-y-3 space-y-4 leading-6 text-left xl:pt-3 xl:space-y-5 uppercase">
+					<div class="relative inline-block mr-3">
+						<a href="https://github.com/moonsyntax">
+							<Button textinput="Github" />
+						</a>
+					</div>
+					<div class="relative inline-block mr-3">
+						<a href="https://t.me/moonsyntax">
+							<Button textinput="Telegram" />
+						</a>
+					</div>
+					<div class="relative inline-block mr-3">
+						<a href="https://twitter.com/moonsyntax">
+							<Button textinput="Twitter" />
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="m-auto lg:block hidden">
+				<div class="hover:transform hover:scale-110 hover:transition-transform hover:duration-800">
+					<lottie-player src="/rocket.json" background="transparent" loop autoplay></lottie-player>
+				</div>
+			</div>
+		</section>
+	</div>
+</template>
