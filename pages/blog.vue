@@ -25,7 +25,7 @@
 		</div>
 		<div class="flex flex-row justify-center underline">
 			<a href="https://medium.com/moonsyntax" target="_blank" rel="noopener noreferrer">
-				<Buttonx textinput="View all posts" />
+				<Buttonx textinput="VIEW ALL POSTS" />
 			</a>
 		</div>
 	</div>
