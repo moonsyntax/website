@@ -72,7 +72,7 @@ export default {
     });
 
     // shuffle posts
-    this.mediumData.sort(() => Math.random() - 0.5).slice(0, 3);
+    this.mediumData = this.mediumData.sort(() => Math.random() - 0.5).slice(0, 3);
   },
 };
 </script>
