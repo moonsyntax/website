@@ -65,14 +65,14 @@ export default {
     this.featuredPost.pubDate = dayjs(this.featuredPost.pubDate).fromNow();
 
     // Other posts
-    this.mediumData = this.mediumData.slice(0, 3).map((post) => {
+    this.mediumData = this.mediumData.map((post) => {
       post.content = post.content.split("<p>")[1].slice(0, 100);
       post.pubDate = dayjs(post.pubDate).fromNow();
       return post;
     });
 
     // shuffle posts
-    this.mediumData.sort(() => Math.random() - 0.5);
+    this.mediumData.sort(() => Math.random() - 0.5).slice(0, 3);
   },
 };
 </script>
