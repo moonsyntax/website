@@ -18,7 +18,7 @@
 				</div>
 
 				<div class="my-5">
-					<p class="mb-4">- - - - - - - OR - - - - - - -</p>
+					<p class="mt-4 mb-4">- - - - - - - OR - - - - - - -</p>
 					<a href="mailto:moonsyntax@proton.me" class="text-blue-500 hover:underline text-2xl"
 						>moonsyntax@proton.me</a
 					>
