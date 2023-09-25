@@ -6,17 +6,22 @@
 			</div>
 
 			<div class="m-auto p-8">
-				<div class="my-10">
-					<p class="mb-4 text-2xl">Have questions? Email us:</p>
-					<a href="mailto:moonsyntax@proton.me" class="text-blue-500 hover:underline text-xl"
-						>moonsyntax@proton.me</a
-					>
+				<div class="my-5">
+					<div class="grid grid-cols-2 gap-2">
+						<a href="https://calendly.com/moonsyntax" target="_blank">
+							<Buttonx textinput="Schedule Meeting" />
+						</a>
+						<a href="https://t.me/moonsyntax" target="_blank">
+							<Buttonx textinput="Telegram Group" />
+						</a>
+					</div>
 				</div>
 
-				<div class="my-4">
-					<a href="https://calendly.com/moonsyntax" target="_blank">
-						<Buttonx textinput="Schedule a Meeting" />
-					</a>
+				<div class="my-5">
+					<p class="mb-4">- - - - - - - OR - - - - - - -</p>
+					<a href="mailto:moonsyntax@proton.me" class="text-blue-500 hover:underline text-2xl"
+						>moonsyntax@proton.me</a
+					>
 				</div>
 			</div>
 		</section>

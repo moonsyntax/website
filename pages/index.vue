@@ -13,13 +13,13 @@
 
 				<div class="pt-3 space-y-3 space-y-4 leading-6 text-left xl:pt-3 xl:space-y-5 uppercase">
 					<div class="relative inline-block mr-3">
-						<a href="https://t.me/moonsyntax">
-							<Buttonx textinput="Telegram" />
+						<a href="https://twitter.com/moonsyntax">
+							<Buttonx textinput="Twitter" />
 						</a>
 					</div>
 					<div class="relative inline-block mr-3">
-						<a href="https://twitter.com/moonsyntax">
-							<Buttonx textinput="Twitter" />
+						<a href="https://medium.com/moonsyntax">
+							<Buttonx textinput="Medium" />
 						</a>
 					</div>
 				</div>

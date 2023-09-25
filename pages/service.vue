@@ -1,11 +1,5 @@
 <template>
 	<div>
-		<h2 class="text-left lg:text-center text-4xl lg:text-6xl leading-tight mb-8 text-green-600 font-bold px-8"></h2>
-
-		<div class="text-center text-4xl leading-tight pt-4 font-semibold">OUR <Synb textinput="SERVICES" /></div>
-
-		<div class="my-10"></div>
-
 		<section class="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3">
 			<div class="col-span-1" v-for="(article, index) in articles" :key="index">
 				<a href="" class="group relative block h-96 w-96">

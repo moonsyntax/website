@@ -1,25 +1,20 @@
 <template>
 	<div>
-		<h2 class="text-left lg:text-center text-4xl lg:text-6xl leading-tight mb-8 text-green-600 font-bold px-8"></h2>
-		<div class="text-center text-4xl leading-tight pt-4 font-semibold">RECENT FROM <Synb textinput="BLOG" /></div>
-		<div class="my-10">
-			<a :href="featuredPost.link" target="_blank" rel="noopener noreferrer">
-				<div class="block flex md:flex-row items-start flex-col p-4">
-					<img
-						class="object-cover md:w-1/2 w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-150"
-						:src="featuredPost.thumbnail"
-					/>
-					<div class="md:pl-8 md:w-1/2 w-full my-4">
-						<h2 class="text-xl font-bold sm:text-2xl md:text-3xl line-clamp-2">
-							{{ featuredPost.title }}
-						</h2>
-						<p class="text-md text-gray-500 mt-3" v-html="featuredPost.content" />
-						<p class="pt-2 text-xs font-medium text-gray-600">
-							<span>{{ featuredPost.pubDate }}</span>
-						</p>
+		<div class="py-10">
+			<div class="m-2 border-solid border-2 border-black">
+				<a :href="featuredPost.link" target="_blank" rel="noopener noreferrer">
+					<div class="block flex md:flex-row items-start flex-col p-4">
+						<img class="md:w-2/3 w-full m-4 m-auto" :src="featuredPost.thumbnail" />
+						<div class="md:w-1/3 w-full m-4 m-auto">
+							<h2 class="text-xl font-bold sm:text-2xl md:text-3xl line-clamp-2">
+								{{ featuredPost.title }}
+							</h2>
+
+							<p class="text-md text-gray-500 mt-5" v-html="featuredPost.content" />
+						</div>
 					</div>
-				</div>
-			</a>
+				</a>
+			</div>
 		</div>
 
 		<div class="flex grid grid-cols-12 pb-10 sm:px-5 gap-x-8 gap-y-16">
@@ -67,8 +62,7 @@
 
 			// Featured Post
 			this.featuredPost = this.mediumData.shift();
-			this.featuredPost.content = this.featuredPost.content.split('<p>')[1].slice(0, 1000);
-			this.featuredPost.pubDate = dayjs(this.featuredPost.pubDate).fromNow();
+			this.featuredPost.content = this.featuredPost.content.split('<p>')[1].slice(0, 300);
 
 			// Other posts
 			this.mediumData = this.mediumData.map((post) => {
@@ -78,7 +72,7 @@
 			});
 
 			// shuffle posts
-			this.mediumData = this.mediumData.sort(() => Math.random() - 0.5).slice(0, 12);
+			this.mediumData = this.mediumData.sort(() => Math.random() - 0.5).slice(0, 6);
 		},
 	};
 </script>
