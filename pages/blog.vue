@@ -4,8 +4,8 @@
 			<div class="m-2 border-solid border-2 border-black">
 				<a :href="featuredPost.link" target="_blank" rel="noopener noreferrer">
 					<div class="block flex md:flex-row items-start flex-col p-4">
-						<img class="md:w-2/3 w-full m-4 m-auto" :src="featuredPost.thumbnail" />
-						<div class="md:w-1/3 w-full m-4 m-auto">
+						<img class="md:w-2/3 w-full p-4 m-auto" :src="featuredPost.thumbnail" />
+						<div class="md:w-1/3 w-full p-4 m-auto">
 							<h2 class="text-xl font-bold sm:text-2xl md:text-3xl line-clamp-2">
 								{{ featuredPost.title }}
 							</h2>
