@@ -66,6 +66,21 @@
 						heading: 'Web 3.0 Development',
 						description: 'Decentralized websites and applications.',
 					},
+					{
+						tag: 'report',
+						heading: 'Cryptocurrency Consultaion',
+						description: 'Experienced consultaion for your project.',
+					},
+					{
+						tag: 'report',
+						heading: 'Smart Contract Development',
+						description: 'Efficient, Secure Smart Contract Solutions.',
+					},
+					{
+						tag: 'report',
+						heading: 'Crypto Insurance',
+						description: 'Insurance for Digital Wealth.',
+					},
 				],
 			};
 		},
