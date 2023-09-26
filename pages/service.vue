@@ -2,7 +2,11 @@
 	<div>
 		<section class="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3">
 			<div class="col-span-1" v-for="(article, index) in articles" :key="index">
-				<a href="" class="group relative block h-96 w-96">
+				<a
+					target="_blank"
+					:href="'https://blog.moonsyntax.com/tags/' + article.tag + '/'"
+					class="group relative block h-96 w-96"
+				>
 					<span class="absolute inset-0 border-2 border-dashed border-gray-300"> </span>
 					<div
 						class="relative flex h-full transform items-end border-2 border-gray-300 bg-white transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2"
@@ -33,26 +37,32 @@
 			return {
 				articles: [
 					{
+						tag: 'report',
 						heading: 'Hacking / RE',
 						description: 'Compromising digital devices, networks.',
 					},
 					{
+						tag: 'report',
 						heading: 'Project Audit',
 						description: 'Evaluates projects based on specific criteria.',
 					},
 					{
+						tag: 'report',
 						heading: 'Crypto Recovery',
 						description: 'Recover lost cryptocurrency with expert assistance.',
 					},
 					{
+						tag: 'report',
 						heading: 'Blockchain Forensic',
 						description: 'Trace and investigate blockchain transactions.',
 					},
 					{
+						tag: 'report',
 						heading: 'Project Advisory',
 						description: 'Expert guidance for maximizing project potential.',
 					},
 					{
+						tag: 'report',
 						heading: 'Web 3.0 Development',
 						description: 'Decentralized websites and applications.',
 					},
