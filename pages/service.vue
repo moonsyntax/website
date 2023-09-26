@@ -68,7 +68,7 @@
 					},
 					{
 						tag: 'report',
-						heading: 'Cryptocurrency Consultaion',
+						heading: 'Cryptocurrency Consultation',
 						description: 'Experienced consultaion for your project.',
 					},
 					{
