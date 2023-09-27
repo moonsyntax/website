@@ -6,26 +6,22 @@
 			</div>
 
 			<div class="m-auto p-8">
-				<div class="my-5">
-					<div class="grid grid-cols-2 gap-2">
-						<a href="https://calendly.com/moonsyntax" target="_blank">
-							<Buttonx textinput="Schedule Meeting" />
-						</a>
-						<a href="https://t.me/moonsyntax" target="_blank">
-							<Buttonx textinput="Telegram Group" />
-						</a>
-					</div>
+                <div class="my-5">
+					<p class="mt-4 mb-4">--- Telegram Group</p>
+					<a href="https://t.me/moonsyntax" class="text-blue-500 hover:underline text-2xl"
+						>@moonsyntax</a
+					>
 				</div>
 
 				<div class="my-5">
-					<p class="mt-4 mb-4">- - - - - - - OR - - - - - - -</p>
+					<p class="mt-4 mb-4">--- Email Manager</p>
 					<a href="mailto:moonsyntax@proton.me" class="text-blue-500 hover:underline text-2xl"
 						>moonsyntax@proton.me</a
 					>
 				</div>
 
 				<div class="my-5">
-					<p class="mt-4 mb-4">- - - - - - - OR - - - - - - -</p>
+					<p class="mt-4 mb-4">--- Email Organisation</p>
 					<a class="text-blue-500 hover:underline text-2xl">{{ email }}@moonsyntax.com</a>
 				</div>
 			</div>
