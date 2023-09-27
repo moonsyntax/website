@@ -35,7 +35,7 @@
 
 	export default {
 		data() {
-			return { email: 'a' };
+			return { email: 'mail' };
 		},
 
 		async mounted() {
@@ -46,7 +46,7 @@
 			const { city } = data;
 
 			if (city) {
-				this.email = city.toLowerCase().replace(/[^a-zA-Z0-9]/g, '');
+				this.email = city.toLowerCase().replace(/[^a-zA-Z0-9]/g, '') || "talk";
 			}
 		},
 	};
