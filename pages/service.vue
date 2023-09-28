@@ -93,7 +93,7 @@
 					{
 						tag: 'report',
 						heading: 'Community Management',
-						description: 'Grow your presence and transform your project'.,
+						description: 'Grow your presence and transform your project.',
 					},
 					{
 						tag: 'report',
