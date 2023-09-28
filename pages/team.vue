@@ -17,8 +17,8 @@
 					</div>
 					<div class="mt-3 py-5 text-center">
 						<h3 class="font-medium text-xl">{{ team.name }}</h3>
-						<p>( {{ team.title }} )</p>
-						<p class="transition-opacity duration-300 mt-3">
+						<p>{ {{ team.title }} }</p>
+						<p class="transition-opacity duration-300 mt-2 text-sm">
 							{{ team.superpower }}
 						</p>
 					</div>
