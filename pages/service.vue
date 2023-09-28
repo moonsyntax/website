@@ -92,8 +92,8 @@
 					},
 					{
 						tag: 'report',
-						heading: 'Cryptocurrency Consultation',
-						description: 'Experienced consultation for your project.',
+						heading: 'Community Management',
+						description: 'Grow your presence and transform your project'.,
 					},
 					{
 						tag: 'report',
