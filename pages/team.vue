@@ -5,10 +5,9 @@
 				<div class="text-left text-4xl leading-tight pt-4 font-semibold">OUR <Synb textinput="TEAM" /></div>
 
 				<div class="my-8 text-2xl text-left">
-					The decentralized <Synb textinput="organization" /> that's shaking up the world of blockchain
-					<Synb textinput="startups" />. With a focus on <Synb textinput="developing" />,
-					<Synb textinput="managing" />, and <Synb textinput="funding" /> cutting-edge projects, our team of
-					<Synb textinput="experts" /> delivers unparalleled support and guidance.
+					Our team is made up of experts in their respective fields, each bringing a unique perspective and
+					skill set to the table. Together, we work towards achieving our mission of advancing the world
+					through cutting-edge technology and strategic investments.
 				</div>
 			</div>
 

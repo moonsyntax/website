@@ -15,7 +15,7 @@
 					</nav>
 				</div>
 			</div>
-			<Nuxt class="py-20 px-5" />
+			<Nuxt class="py-5 px-5" />
 		</div>
 	</div>
 </template>
