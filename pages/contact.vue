@@ -1,15 +1,7 @@
 <template>
 	<div>
 		<section class="grid grid-cols-1 md:grid-cols-2 gap-4 my-10">
-			<div class="m-auto transform hover:scale-110 transition-transform duration-800">
-				<lottie-player
-					src="animation/cont.json"
-					background="transparent"
-					loop
-					autoplay
-					class="w-full h-full"
-				></lottie-player>
-			</div>
+			<Animation loc="./animation/cont.json" />
 
 			<div class="m-auto p-8">
 				<div class="my-5">
