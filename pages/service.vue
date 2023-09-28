@@ -24,7 +24,7 @@
 			</div>
 		</section>
 
-		<section class="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3">
+		<section class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
 			<div class="col-span-1" v-for="(article, index) in randomizedArticles" :key="index">
 				<a
 					target="_blank"
