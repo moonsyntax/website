@@ -1,6 +1,6 @@
 <template>
 	<div class="bg-yellow-50 min-h-screen">
-		<div class="m-auto max-w-7xl">
+		<div class="m-auto max-w-6xl">
 			<div class="flex flex-col flex-wrap items-center justify-between md:flex-row py-8 text-2xl uppercase">
 				<div class="relative flex flex-col md:flex-row">
 					<NuxtLink v-if="isIndexPage" to="/" class="font-bold"><Synb textinput="🌕" /></NuxtLink>
@@ -15,9 +15,7 @@
 					</nav>
 				</div>
 			</div>
-			<Nuxt class="py-5 px-5" />
-
-			<div class="mt-20"></div>
+			<Nuxt class="py-5 px-5 mb-20" />
 		</div>
 	</div>
 </template>
