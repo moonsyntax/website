@@ -14,7 +14,13 @@
 
 			<div class="m-auto lg:block hidden">
 				<div class="hover:transform hover:scale-110 hover:transition-transform hover:duration-800">
-					<lottie-player src="animation/rocket.json" background="transparent" loop autoplay></lottie-player>
+					<lottie-player
+						src="animation/astro.json"
+						background="transparent"
+						loop
+						autoplay
+						style="width: 700px; height: 700px"
+					></lottie-player>
 				</div>
 			</div>
 		</section>
