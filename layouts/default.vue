@@ -17,7 +17,7 @@
 			</div>
 			<Nuxt class="py-5 px-5" />
 
-			<div class="mt-20 hidden lg:block"></div>
+			<div class="mt-20"></div>
 		</div>
 	</div>
 </template>
