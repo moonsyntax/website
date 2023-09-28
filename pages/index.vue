@@ -32,7 +32,7 @@
 						background="transparent"
 						loop
 						autoplay
-						style="width: 700px; height: 700px"
+						class="w-full h-full"
 					></lottie-player>
 				</div>
 			</div>

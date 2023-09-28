@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<section class="grid grid-cols-1 lg:grid-cols-2 gap-2">
+		<section class="grid grid-cols-1 lg:grid-cols-2 gap-2 my-10">
 			<div class="m-auto lg:p-0 p-8">
 				<div class="text-left text-4xl leading-tight pt-4 font-semibold">OUR <Synb textinput="TEAM" /></div>
 
@@ -18,7 +18,7 @@
 						background="transparent"
 						loop
 						autoplay
-						style="width: 700px; height: 700px"
+						class="w-full h-full"
 					></lottie-player>
 				</div>
 			</div>

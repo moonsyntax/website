@@ -1,13 +1,13 @@
 <template>
 	<div>
-		<section class="grid grid-cols-1 md:grid-cols-2 gap-4">
+		<section class="grid grid-cols-1 md:grid-cols-2 gap-4 my-10">
 			<div class="m-auto transform hover:scale-110 transition-transform duration-800">
 				<lottie-player
 					src="animation/dyno.json"
 					background="transparent"
 					loop
 					autoplay
-					style="width: 700px; height: 700px"
+					class="w-full h-full"
 				></lottie-player>
 			</div>
 
