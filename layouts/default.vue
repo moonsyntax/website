@@ -1,5 +1,5 @@
 <template>
-	<div class="bg-yellow-50 min-h-screen">
+	<div class="min-h-screen bg-yellow-50">
 		<div class="m-auto max-w-6xl">
 			<div class="flex flex-col flex-wrap items-center justify-between md:flex-row py-8 text-2xl uppercase">
 				<div class="relative flex flex-col md:flex-row">
@@ -17,8 +17,6 @@
 			</div>
 
 			<Nuxt class="py-5 px-5" />
-
-			<div class="my-20"></div>
 		</div>
 	</div>
 </template>
