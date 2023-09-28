@@ -2,7 +2,7 @@
 	<div>
 		<section class="grid grid-cols-1 md:grid-cols-2 gap-4">
 			<div class="m-auto transform hover:scale-110 transition-transform duration-800">
-				<lottie-player src="/astro.json" background="transparent" loop autoplay></lottie-player>
+				<lottie-player src="animation/astro.json" background="transparent" loop autoplay></lottie-player>
 			</div>
 
 			<div class="m-auto p-8">
