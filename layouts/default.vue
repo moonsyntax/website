@@ -9,6 +9,7 @@
 				<div class="inline-flex items-center ml-5 space-x-6 lg:justify-end">
 					<nav class="flex flex-wrap items-center text-lg font-bold">
 						<a href="https://blog.moonsyntax.com/" class="mr-5">BLOG</a>
+						<NuxtLink to="/team" class="mr-5">Team</NuxtLink>
 						<NuxtLink to="/service" class="mr-5">Services</NuxtLink>
 						<NuxtLink to="/contact" class="mr-5">CONTACT</NuxtLink>
 					</nav>
