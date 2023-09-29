@@ -15,7 +15,7 @@
 				</div>
 
 				<div class="m-auto lg:block hidden">
-					<Animation loc="./animation/gal.json" />
+					<Animation loc="/animation/gal.json" />
 				</div>
 			</section>
 		</div>

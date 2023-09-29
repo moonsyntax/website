@@ -2,7 +2,7 @@
 	<div>
 		<div class="py-10">
 			<section class="grid grid-cols-1 md:grid-cols-2 gap-4">
-				<Animation loc="./animation/cont.json" />
+				<Animation loc="/animation/cont.json" />
 
 				<div class="m-auto p-8">
 					<div class="my-5">
