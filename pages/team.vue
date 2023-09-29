@@ -13,7 +13,7 @@
 				</div>
 
 				<div class="m-auto lg:block hidden">
-					<Animation loc="/animation/astro.json" />
+					<Animation loc="astro.json" />
 				</div>
 			</section>
 		</div>

@@ -26,7 +26,7 @@
 			</div>
 
 			<div class="m-auto lg:block hidden">
-				<Animation loc="/animation/rocket.json" />
+				<Animation loc="rocket.json" />
 			</div>
 		</section>
 	</div>
