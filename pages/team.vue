@@ -1,46 +1,52 @@
 <template>
 	<div>
-		<section class="grid grid-cols-1 lg:grid-cols-2 gap-2 my-10">
-			<div class="m-auto lg:p-0 p-8">
-				<div class="text-left text-4xl leading-tight pt-4 font-semibold">OUR <Synb textinput="TEAM" /></div>
+		<div class="py-10">
+			<section class="grid grid-cols-1 lg:grid-cols-2 gap-2">
+				<div class="m-auto lg:p-0 p-8">
+					<div class="text-left text-4xl leading-tight pt-4 font-semibold">OUR <Synb textinput="TEAM" /></div>
 
-				<div class="my-8 text-2xl text-left">
-					Our team is made up of experts in their respective fields, each bringing a unique perspective and
-					skill set to the table. Together, we work towards achieving our mission of advancing the world
-					through cutting-edge technology and strategic investments.
-				</div>
-			</div>
-
-			<div class="m-auto lg:block hidden">
-				<Animation loc="./animation/astro.json" />
-			</div>
-		</section>
-
-		<div class="grid w-full grid-cols-1 gap-10 md:grid-cols-3">
-			<div v-for="(team, index) of teams" :key="index">
-				<div
-					class="flex flex-col col-span-1 hover:col-span-2 items-center justify-center shadow-xl py-10 px-10 transform duration-500 hover:-translate-y-5 cursor-pointer rounded-md bg-white"
-				>
-					<div class="relative p-5">
-						<div
-							class="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full"
-							:class="theme[index]"
-						></div>
-						<img
-							class="relative z-10 w-full rounded-full"
-							v-bind:src="'/team/' + team.pic + '.png'"
-						/>
-					</div>
-					<div class="mt-3 py-5 text-center">
-						<h3 class="font-medium text-xl">{{ team.name }}</h3>
-						<p>{ {{ team.title }} }</p>
-						<p class="transition-opacity duration-300 mt-2 text-sm">
-							{{ team.superpower }}
-						</p>
+					<div class="my-8 text-2xl text-left">
+						Our team is made up of experts in their respective fields, each bringing a unique
+						perspective and skill set to the table. Together, we work towards achieving our mission of
+						advancing the world through cutting-edge technology and strategic investments.
 					</div>
 				</div>
-			</div>
+
+				<div class="m-auto lg:block hidden">
+					<Animation loc="./animation/astro.json" />
+				</div>
+			</section>
 		</div>
+		<div class="py-10">
+			<section class="grid w-full grid-cols-1 gap-10 md:grid-cols-3">
+				<div v-for="(team, index) of teams" :key="index">
+					<div
+						class="flex flex-col col-span-1 hover:col-span-2 items-center justify-center shadow-xl py-10 px-10 transform duration-500 hover:-translate-y-5 cursor-pointer rounded-md bg-white"
+					>
+						<div class="relative p-5">
+							<div
+								class="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full"
+								:class="theme[index]"
+							></div>
+							<img
+								class="relative z-10 w-full rounded-full"
+								v-bind:src="'/team/' + team.pic + '.png'"
+							/>
+						</div>
+						<div class="mt-3 py-5 text-center">
+							<h3 class="font-medium text-xl">{{ team.name }}</h3>
+							<p>{ {{ team.title }} }</p>
+							<p class="transition-opacity duration-300 mt-2 text-sm">
+								{{ team.superpower }}
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		div>
+
+		<div class="py-20"></div>
 	</div>
 </template>
 

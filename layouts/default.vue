@@ -1,22 +1,25 @@
 <template>
-	<div class="min-h-screen bg-yellow-50">
-		<div class="m-auto max-w-6xl">
-			<div class="flex flex-col flex-wrap items-center justify-between md:flex-row py-8 text-2xl uppercase">
-				<div class="relative flex flex-col md:flex-row">
-					<NuxtLink v-if="isIndexPage" to="/" class="font-bold"><Synb textinput="🌕" /></NuxtLink>
-					<NuxtLink v-if="!isIndexPage" to="/" class="font-bold"> <Synb textinput="🡸" /> </NuxtLink>
-				</div>
-				<div class="inline-flex items-center ml-5 space-x-6 lg:justify-end">
-					<nav class="flex flex-wrap items-center text-lg font-bold">
-						<a href="https://blog.moonsyntax.com/" class="mr-5">BLOG</a>
-						<NuxtLink to="/team" class="mr-5">Team</NuxtLink>
-						<NuxtLink to="/service" class="mr-5">Services</NuxtLink>
-						<NuxtLink to="/contact" class="mr-5">CONTACT</NuxtLink>
-					</nav>
+	<div>
+		<div class="bg-yellow-200">
+			<div class="m-auto max-w-6xl">
+				<div class="flex items-center justify-center h-10 py-10 uppercase text-lg font-bold">
+					<div class="flex items-center space-x-4">
+						<NuxtLink v-if="!isIndexPage" to="/" class="">
+							<Synb textinput=" 🡸 " />
+						</NuxtLink>
+						<a href="https://blog.moonsyntax.com/">BLOG</a>
+						<NuxtLink to="/team">Team</NuxtLink>
+						<NuxtLink to="/service">Services</NuxtLink>
+						<NuxtLink to="/contact">CONTACT</NuxtLink>
+					</div>
 				</div>
 			</div>
+		</div>
 
-			<Nuxt class="py-5 px-5" />
+		<div class="">
+			<div class="m-auto max-w-6xl">
+				<Nuxt class="px-5 py-20" />
+			</div>
 		</div>
 	</div>
 </template>

@@ -1,49 +1,59 @@
 <template>
 	<div>
-		<section class="grid grid-cols-1 lg:grid-cols-2 gap-2 my-10">
-			<div class="m-auto lg:p-0 p-8">
-				<div class="text-left text-4xl leading-tight pt-4 font-semibold">OUR <Synb textinput="SERVICE" /></div>
-
-				<div class="my-8 text-2xl text-left">
-					Our services are designed to help you navigate the complex world of IT and venture capital with
-					ease. Just as astronauts rely on advanced technology to explore space, we provide cutting-edge
-					solutions to help your business thrive.
-				</div>
-			</div>
-
-			<div class="m-auto lg:block hidden">
-				<Animation loc="./animation/gal.json" />
-			</div>
-		</section>
-
-		<section class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
-			<div class="col-span-1" v-for="(article, index) in randomizedArticles" :key="index">
-				<a
-					target="_blank"
-					:href="'https://blog.moonsyntax.com/tags/' + article.tag + '/'"
-					class="group relative block h-96 w-96"
-				>
-					<span class="absolute inset-0 border-2 border-dashed border-gray-300"></span>
-					<div
-						class="relative flex h-full transform items-end border-2 border-gray-300 bg-white transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2"
-					>
-						<div class="px-8 pb-8 transition-opacity group-hover:absolute group-hover:opacity-0">
-							<h2 class="mt-4 text-2xl font-medium">
-								{{ article.heading }}
-							</h2>
-						</div>
-						<div
-							class="absolute p-8 opacity-0 transition-opacity group-hover:relative group-hover:opacity-100"
-						>
-							<h3 class="mt-4 text-2xl font-medium">
-								{{ article.heading }}
-							</h3>
-							<p class="mt-4">{{ article.description }}</p>
-						</div>
+		<div class="py-10">
+			<section class="grid grid-cols-1 lg:grid-cols-2 gap-2">
+				<div class="m-auto lg:p-0 p-8">
+					<div class="text-left text-4xl leading-tight pt-4 font-semibold">
+						OUR <Synb textinput="SERVICE" />
 					</div>
-				</a>
-			</div>
-		</section>
+
+					<div class="my-8 text-2xl text-left">
+						Our services are designed to help you navigate the complex world of IT and venture capital
+						with ease. Just as astronauts rely on advanced technology to explore space, we provide
+						cutting-edge solutions to help your business thrive.
+					</div>
+				</div>
+
+				<div class="m-auto lg:block hidden">
+					<Animation loc="./animation/gal.json" />
+				</div>
+			</section>
+		</div>
+
+		<div class="py-10">
+			<section class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+				<div class="col-span-1" v-for="(article, index) in randomizedArticles" :key="index">
+					<a
+						target="_blank"
+						:href="'https://blog.moonsyntax.com/tags/' + article.tag + '/'"
+						class="group relative block h-96 w-96"
+					>
+						<span class="absolute inset-0 border-2 border-dashed border-gray-300"></span>
+						<div
+							class="relative flex h-full transform items-end border-2 border-gray-300 bg-white transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2"
+						>
+							<div
+								class="px-8 pb-8 transition-opacity group-hover:absolute group-hover:opacity-0"
+							>
+								<h2 class="mt-4 text-2xl font-medium">
+									{{ article.heading }}
+								</h2>
+							</div>
+							<div
+								class="absolute p-8 opacity-0 transition-opacity group-hover:relative group-hover:opacity-100"
+							>
+								<h3 class="mt-4 text-2xl font-medium">
+									{{ article.heading }}
+								</h3>
+								<p class="mt-4">{{ article.description }}</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</section>
+		</div>
+
+		<div class="py-20"></div>
 	</div>
 </template>
 
