@@ -44,7 +44,6 @@
 				</div>
 			</section>
 		</div>
-		div>
 
 		<div class="py-20"></div>
 	</div>
