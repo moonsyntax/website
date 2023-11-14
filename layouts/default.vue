@@ -1,35 +1,27 @@
+ 
 <template>
 	<div>
-		<div class="bg-yellow-200">
-			<div class="m-auto max-w-6xl">
-				<div class="flex items-center justify-center h-10 py-10 uppercase lg:text-lg font-bold">
-					<div class="flex items-center space-x-4">
-						<NuxtLink v-if="!isIndexPage" to="/" class="">
-							<Synb textinput="HOME" />
-						</NuxtLink>
-						<a href="https://blog.moonsyntax.com/">BLOG</a>
-						<NuxtLink to="/team">Team</NuxtLink>
-						<NuxtLink to="/service">Services</NuxtLink>
-						<NuxtLink to="/contact">CONTACT</NuxtLink>
-					</div>
-				</div>
-			</div>
-		</div>
+		<Navbar :isIndexPage="isIndexPage" />
 
-		<div class="">
-			<div class="m-auto max-w-6xl">
-				<Nuxt class="px-5 py-20" />
-			</div>
+		<div class="m-auto max-w-6xl">
+			<Nuxt class="px-8 py-8" />
 		</div>
 	</div>
 </template>
 
 <script>
-	export default {
-		computed: {
-			isIndexPage() {
-				return this.$route.path === '/';
-			},
+import Navbar from '@/components/Navbar.vue';
+import MainContent from '@/components/MainContent.vue';
+
+export default {
+	components: {
+		Navbar,
+		MainContent
+	},
+	computed: {
+		isIndexPage() {
+			return this.$route.path === '/';
 		},
-	};
+	},
+};
 </script>
