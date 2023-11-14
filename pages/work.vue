@@ -24,7 +24,7 @@
 		<div class="py-10">
 
 			<div v-for="(article, index) in randomizedArticles" :key="index">
-				<img :src="article.image" alt="image" class="w-full h-full object-cover" />
+                <img :src="article.image" alt="image" class="w-full h-full object-cover transition transform hover:scale-110" />
 			</div>
 
 		</div>
