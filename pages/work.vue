@@ -38,7 +38,7 @@ export default {
 		return {
 			articles: [
 				{
-					image: 'https://moonsyntax.com/banner.png',
+					image: 'https://ipfs.io/ipfs/QmP9Hyi3B3nr1kcGzE3mWykBHA5xwA2H1AHhKqW2bhwrqY',
 				},
 
 			],
