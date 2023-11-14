@@ -9,6 +9,7 @@
                     <a href="https://blog.moonsyntax.com/">BLOG</a>
                     <NuxtLink to="/team">Team</NuxtLink>
                     <NuxtLink to="/service">Services</NuxtLink>
+                    <NuxtLink to="/work">work</NuxtLink>
                     <NuxtLink to="/contact">CONTACT</NuxtLink>
                 </div>
             </div>

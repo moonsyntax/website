@@ -11,13 +11,11 @@
 
 <script>
 import Navbar from '@/components/Navbar.vue';
-import MainContent from '@/components/MainContent.vue';
-
+ 
 export default {
 	components: {
-		Navbar,
-		MainContent
-	},
+		Navbar
+ 	},
 	computed: {
 		isIndexPage() {
 			return this.$route.path === '/';
