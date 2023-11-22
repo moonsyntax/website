@@ -6,6 +6,7 @@
 		<div class="m-auto max-w-6xl">
 			<Nuxt class="px-8 py-8" />
 		</div>
+		
 	</div>
 </template>
 
