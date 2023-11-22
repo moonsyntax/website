@@ -3,10 +3,7 @@
 	<div>
 		<Navbar :isIndexPage="isIndexPage" />
 
-		<div class="m-auto max-w-6xl">
-			<Nuxt class="px-8 py-8" />
-		</div>
-		
+		<Nuxt  />
 	</div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="m-auto container">
 		<section class="grid grid-cols-1 lg:grid-cols-2 gap-2">
 			<div class="m-auto lg:p-0 p-8">
 				<div class="text-left text-4xl leading-tight pt-4 font-semibold">MOON { SYNTAX }</div>
