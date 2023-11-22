@@ -19,11 +19,6 @@
 							<Buttonx textinput="Medium" />
 						</a>
 					</div>
-		            <div class="relative inline-block mr-3">
-						<a href="https://blog.moonsyntax.com/">
-							<Buttonx textinput="Blog" />
-						</a>
-					</div>
 				</div>
 			</div>
 

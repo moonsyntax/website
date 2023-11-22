@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="m-auto container">
 		<div class="py-10">
 			<section class="grid grid-cols-1 lg:grid-cols-2 gap-2">
 				<div class="m-auto lg:p-0 p-8">
