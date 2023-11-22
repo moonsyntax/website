@@ -18,7 +18,7 @@
 			</section>
 		</div>
 		<div class="py-10">
-			<section class="grid w-full grid-cols-1 gap-10 md:grid-cols-3">
+			<section class="grid w-full grid-cols-1 gap-10 md:grid-cols-4">
 				<div v-for="(team, index) of teams" :key="index">
 					<div
 						class="flex flex-col col-span-1 hover:col-span-2 items-center justify-center shadow-xl py-10 px-10 transform duration-500 hover:-translate-y-5 cursor-pointer rounded-md bg-yellow-50"

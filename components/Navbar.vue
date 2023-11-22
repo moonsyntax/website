@@ -6,6 +6,7 @@
                     <NuxtLink to="/" v-if="!isIndexPage">HOME</NuxtLink>
                     <NuxtLink to="/team">Team</NuxtLink>
                     <NuxtLink to="/service">Services</NuxtLink>
+                    <NuxtLink to="/work">work</NuxtLink>
                     <NuxtLink to="/contact">CONTACT</NuxtLink>
                 </div>
             </div>
