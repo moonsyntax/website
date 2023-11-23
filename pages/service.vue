@@ -6,32 +6,31 @@
           <div class="w-full md:w-1/2 p-8">
             <div class="md:max-w-xl">
               <h2 class="font-heading mb-6 text-6xl tracking-tighter">
-                Boost your brand's visibility and reach
+                Transforming Blockchain Innovation
               </h2>
               <p class="mb-20 tracking-tight">
-                Use and re-use tons of responsive sections too a main create the
-                perfect layout. Sections are firmly of organised into the
-                perfect start.
+                Moon Syntax empowers blockchain startups with a suite of
+                specialized services designed to accelerate growth and success.
               </p>
               <div class="flex flex-wrap -m-6">
                 <div class="w-full md:w-1/2 p-6">
                   <h3 class="mb-2 text-xl font-semibold tracking-tight">
-                    Transactions
+                    Funding Support
                   </h3>
                   <p class="tracking-tight">
-                    Use and re-use tons of responsive sections to create the
-                    perfect layout. Sections are organised into
-                    convenientmcategories.
+                    Moon Syntax offers strategic financial backing to fuel the
+                    vision and development of promising projects. Our investment
+                    philosophy aligns with your long-term success.
                   </p>
                 </div>
                 <div class="w-full md:w-1/2 p-6">
                   <h3 class="mb-2 text-xl font-semibold tracking-tight">
-                    Summaries
+                    Expert Mentorship
                   </h3>
                   <p class="tracking-tight">
-                    Use and re-use tons of responsive sections to create the
-                    perfect layout. Sections are organised into
-                    convenientmcategories.
+                    Gain access to a team of seasoned developers and venture
+                    capitalists. Our experts provide invaluable guidance and
+                    technical expertise to refine and optimize your project.
                   </p>
                 </div>
               </div>
@@ -41,7 +40,7 @@
             <div class="max-w-max mx-auto">
               <Animation
                 class="transform hover:-translate-y-2 transition duration-500"
-                loc="gal"
+                loc="service-mo"
               />
             </div>
           </div>
@@ -56,23 +55,22 @@
             <div class="max-w-max mx-auto">
               <Animation
                 class="transform hover:-translate-y-2 transition duration-500"
-                loc="dyno"
+                loc="service-pla"
               />
             </div>
           </div>
           <div class="w-full md:w-1/2 p-8">
             <div class="md:max-w-xl">
               <h2 class="font-heading mb-6 text-6xl tracking-tighter">
-                Boost your brand's visibility and reach
+                Elevate Your Blockchain Venture
               </h2>
               <p class="mb-20 text-xl tracking-tight">
-                Use and re-use tons of responsive sections too a main create the
-                perfect layout. Sections are firmly of organised into the
-                perfect starting categories.
+                Moon Syntax offers a diverse range of specialized services to
+                bolster your blockchain project's success.
               </p>
               <div class="max-w-md">
                 <h3 class="mb-8 text-xl font-semibold tracking-tight">
-                  A snapshot of Basko’s features:
+                  Our Offerings Include:
                 </h3>
                 <div class="flex flex-wrap justify-between -m-2">
                   <div class="w-auto p-2">
@@ -95,8 +93,8 @@
                           ></path>
                         </svg>
                         <span class="font-medium tracking-tight"
-                          >Faster Payment</span
-                        >
+                          >Project Management
+                        </span>
                       </li>
                       <li class="flex items-center p-2">
                         <svg
@@ -116,8 +114,8 @@
                           ></path>
                         </svg>
                         <span class="font-medium tracking-tight"
-                          >Individual Payment</span
-                        >
+                          >Project Audit
+                        </span>
                       </li>
                       <li class="flex items-center p-2">
                         <svg
@@ -137,8 +135,8 @@
                           ></path>
                         </svg>
                         <span class="font-medium tracking-tight"
-                          >User Dashboard</span
-                        >
+                          >Project Development
+                        </span>
                       </li>
                     </ul>
                   </div>
@@ -162,8 +160,8 @@
                           ></path>
                         </svg>
                         <span class="font-medium tracking-tight"
-                          >Faster Payment</span
-                        >
+                          >Web3 Consultation
+                        </span>
                       </li>
                       <li class="flex items-center p-2">
                         <svg
@@ -183,8 +181,8 @@
                           ></path>
                         </svg>
                         <span class="font-medium tracking-tight"
-                          >Individual Payment</span
-                        >
+                          >Crypto Insurance
+                        </span>
                       </li>
                       <li class="flex items-center p-2">
                         <svg
@@ -204,8 +202,8 @@
                           ></path>
                         </svg>
                         <span class="font-medium tracking-tight"
-                          >User Dashboard</span
-                        >
+                          >Cold Storage Solutions
+                        </span>
                       </li>
                     </ul>
                   </div>
@@ -228,12 +226,12 @@
                     class="mb-4 text-3xl font-semibold tracking-tighter"
                     style="letter-spacing: -0.5px"
                   >
-                    Secured Payments
+                    Lost Crypto Recovery
                   </h3>
                   <p class="tracking-tight">
-                    Use and re-use tons of responsive sections to create the
-                    perfect layout. Sections are organised into
-                    convenientmcategories.
+                    Reclaim lost cryptocurrencies. Expert assistance for
+                    forgotten passwords, inaccessible wallets, ensuring
+                    streamlined recovery.
                   </p>
                 </div>
                 <div class="w-auto p-6">
@@ -241,12 +239,12 @@
                     class="mb-4 text-3xl font-semibold tracking-tighter"
                     style="letter-spacing: -0.5px"
                   >
-                    Individual Customer Profile
+                    Hacked Crypto Recovery
                   </h3>
                   <p class="tracking-tight">
-                    Use and re-use tons of responsive sections to create the
-                    perfect layout. Sections are organised into
-                    convenientmcategories.
+                    Restore hacked assets, fortify security. Expert
+                    investigation, recovery strategies for compromised accounts,
+                    thefts.
                   </p>
                 </div>
                 <div class="w-auto p-6">
@@ -254,12 +252,11 @@
                     class="mb-4 text-3xl font-semibold tracking-tighter"
                     style="letter-spacing: -0.5px"
                   >
-                    Individual Customer Profile
+                    Blockchain Forensics
                   </h3>
                   <p class="tracking-tight">
-                    Use and re-use tons of responsive sections to create the
-                    perfect layout. Sections are organised into
-                    convenientmcategories.
+                    Trace cyberattacks, identify hackers. Advanced analysis,
+                    digital footprints tracing within blockchain networks.
                   </p>
                 </div>
               </div>
@@ -268,6 +265,8 @@
 
           <div class="w-full md:w-1/2 p-8">
             <div class="max-w-max mx-auto">
+              <!-- Placeholder for your animation or image -->
+              <!-- Replace 'Animation' with your actual component or image tag -->
               <Animation
                 class="transform hover:-translate-y-2 transition duration-500"
                 loc="ser"
@@ -282,71 +281,71 @@
       <div class="container px-4 mx-auto">
         <div class="mb-24 max-w-xl">
           <h2 class="font-heading mb-8 text-6xl tracking-tighter">
-            Engage your target audience and build brand
+            Empower Your Startup with Moon Syntax
           </h2>
         </div>
-        <div class="flex flex-wrap -m-8">
-          <div class="w-full md:w-1/2 lg:w-1/4 p-8">
-            <div class="md:max-w-xs">
+        <div class="flex flex-wrap -mx-8">
+          <div class="w-full md:w-1/2 lg:w-1/4 px-8 mb-8">
+            <div class="max-w-xs mx-auto">
               <img
                 class="mb-6"
                 src="https://shuffle.dev/basko-assets/images/features/work.png"
                 alt=""
               />
               <h3 class="mb-4 text-xl font-semibold tracking-tight">
-                Save works
+                VC Funding Support
               </h3>
               <p class="tracking-tight">
-                We consider all the drivers change gives you blocks up
-                components for it on time.
+                Providing venture capital and funding opportunities to new
+                startups.
               </p>
             </div>
           </div>
-          <div class="w-full md:w-1/2 lg:w-1/4 p-8">
-            <div class="md:max-w-xs">
+          <div class="w-full md:w-1/2 lg:w-1/4 px-8 mb-8">
+            <div class="max-w-xs mx-auto">
               <img
                 class="mb-6"
                 src="https://shuffle.dev/basko-assets/images/features/message.png"
                 alt=""
               />
               <h3 class="mb-4 text-xl font-semibold tracking-tight">
-                Communicate faster
+                IT Infrastructure Aid
               </h3>
               <p class="tracking-tight">
-                We consider all the drivers change gives you blocks up
-                components for it on time.
+                Offering initial IT hardware, cloud infrastructure, and 24/7
+                support for seamless operations.
               </p>
             </div>
           </div>
-          <div class="w-full md:w-1/2 lg:w-1/4 p-8">
-            <div class="md:max-w-xs">
+          <div class="w-full md:w-1/2 lg:w-1/4 px-8 mb-8">
+            <div class="max-w-xs mx-auto">
               <img
                 class="mb-6"
                 src="https://shuffle.dev/basko-assets/images/features/voice.png"
                 alt=""
               />
               <h3 class="mb-4 text-xl font-semibold tracking-tight">
-                Share more
+                Boot Funding & Mentorship
               </h3>
               <p class="tracking-tight">
-                We consider all the drivers change gives you blocks up
-                components for it on time.
+                Assisting with boot funding, early-stage support, mentorship,
+                and industry connections.
               </p>
             </div>
           </div>
-          <div class="w-full md:w-1/2 lg:w-1/4 p-8">
-            <div class="md:max-w-xs">
+          <div class="w-full md:w-1/2 lg:w-1/4 px-8 mb-8">
+            <div class="max-w-xs mx-auto">
               <img
                 class="mb-6"
                 src="https://shuffle.dev/basko-assets/images/features/brands.png"
                 alt=""
               />
               <h3 class="mb-4 text-xl font-semibold tracking-tight">
-                Brand value
+                IT Infrastructure Enhancement
               </h3>
               <p class="tracking-tight">
-                We consider all the drivers change gives you blocks up
-                components for it on time.
+                Improving IT infrastructure for 24/7 operation, ensuring data
+                security and continuity.
               </p>
             </div>
           </div>
