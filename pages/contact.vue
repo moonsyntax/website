@@ -114,6 +114,28 @@
 import axios from "axios";
 
 export default {
+  head() {
+    return {
+      title: "Contact Us",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "We are always open to new ideas and collaborations.",
+        },
+        {
+          hid: "og:title",
+          property: "og:title",
+          content: "Contact Us",
+        },
+        {
+          hid: "og:description",
+          property: "og:description",
+          content: "We are always open to new ideas and collaborations.",
+        },
+      ],
+    };
+  },
   data() {
     return { email: "mail" };
   },
