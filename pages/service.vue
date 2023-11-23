@@ -354,3 +354,37 @@
     </section>
   </div>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: "Moon Syntax - Services",
+      meta: [
+        {
+          hid: "title",
+          name: "title",
+          content: "Moon Syntax - Services",
+        },
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Moon Syntax empowers blockchain startups with a suite of specialized services designed to accelerate growth and success.",
+        },
+        {
+          hid: "og:title",
+          property: "og:title",
+          content: "Moon Syntax - Services",
+        },
+        {
+          hid: "og:description",
+          property: "og:description",
+          content:
+            "Moon Syntax empowers blockchain startups with a suite of specialized services designed to accelerate growth and success.",
+        },
+      ],
+    };
+  },
+};
+</script>

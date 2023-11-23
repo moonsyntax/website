@@ -119,6 +119,16 @@ export default {
       title: "Contact Us",
       meta: [
         {
+          hid: "og:title",
+          name: "og:title",
+          content: "Contact Us",
+        },
+        {
+          hid: "twitter:title",
+          name: "twitter:title",
+          content: "Contact Us",
+        },
+        {
           hid: "description",
           name: "description",
           content: "We are always open to new ideas and collaborations.",

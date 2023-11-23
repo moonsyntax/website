@@ -62,6 +62,41 @@
 
 <script>
 export default {
+  head() {
+    return {
+      title: "Moonsyntax - Team",
+      meta: [
+        {
+          hid: "og:title",
+          name: "og:title",
+          content: "Moonsyntax - Team",
+        },
+        {
+          hid: "twitter:title",
+          name: "twitter:title",
+          content: "Moonsyntax - Team",
+        },
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Our team is made up of experts in their respective fields, each bringing a unique perspective and skill set to the table. Together, we work towards achieving our mission of advancing the world through cutting-edge technology and strategic investments.",
+        },
+        {
+          hid: "og:description",
+          name: "og:description",
+          content:
+            "Our team is made up of experts in their respective fields, each bringing a unique perspective and skill set to the table. Together, we work towards achieving our mission of advancing the world through cutting-edge technology and strategic investments.",
+        },
+        {
+          hid: "twitter:description",
+          name: "twitter:description",
+          content:
+            "Our team is made up of experts in their respective fields, each bringing a unique perspective and skill set to the table. Together, we work towards achieving our mission of advancing the world through cutting-edge technology and strategic investments.",
+        },
+      ],
+    };
+  },
   data() {
     return {
       theme: [
