@@ -41,7 +41,7 @@
             <div class="max-w-max mx-auto">
               <Animation
                 class="transform hover:-translate-y-2 transition duration-500"
-                loc="gal.json"
+                loc="gal"
               />
             </div>
           </div>
@@ -56,7 +56,7 @@
             <div class="max-w-max mx-auto">
               <Animation
                 class="transform hover:-translate-y-2 transition duration-500"
-                loc="dyno.json"
+                loc="dyno"
               />
             </div>
           </div>
@@ -270,7 +270,7 @@
             <div class="max-w-max mx-auto">
               <Animation
                 class="transform hover:-translate-y-2 transition duration-500"
-                loc="ser.json"
+                loc="ser"
               />
             </div>
           </div>

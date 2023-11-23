@@ -24,7 +24,7 @@
             </div>
           </div>
           <div class="w-full md:w-1/2 p-6">
-            <Animation loc="astro.json" />
+            <Animation loc="team" />
           </div>
         </div>
       </div>

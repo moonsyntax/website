@@ -1,23 +1,25 @@
 <template>
-	<div class="hover:transform hover:scale-110 hover:transition-transform hover:duration-800">
-		<lottie-player
-			:src="'https://moonsyntax.com/animation/' + loc"
-			background="transparent"
-			loop
-			autoplay
-			class="w-full h-full"
-		></lottie-player>
-	</div>
+  <div
+    class="hover:transform hover:scale-110 hover:transition-transform hover:duration-800"
+  >
+    <lottie-player
+      :src="'https://moonsyntax.com/animation/' + loc + '.json'"
+      background="transparent"
+      loop
+      autoplay
+      class="w-full h-full"
+    ></lottie-player>
+  </div>
 </template>
 
 <script>
-	export default {
-		name: 'Animation',
-		props: {
-			loc: {
-				type: String,
-				required: true,
-			},
-		},
-	};
+export default {
+  name: "Animation",
+  props: {
+    loc: {
+      type: String,
+      required: true,
+    },
+  },
+};
 </script>
