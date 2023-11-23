@@ -30,10 +30,10 @@
               <h3
                 class="mb-4 font-heading font-bold text-gray-900 text-xl group-hover:underline"
               >
-                {{ post.title }}
+                {{ post.title.slice(0, 50) }}
               </h3>
               <p class="mb-5 text-gray-600 text-base">
-                {{ post.description }}
+                {{ post.description.slice(0, 100) }}
               </p>
             </a>
             <a
@@ -59,11 +59,11 @@ export default {
     return {
       posts: [
         {
-          title: "Post title",
-          description: "Post description",
+          title: "Recovered 2.1 BTC from a Damaged Device",
+          description: "Our client was a user of the Samurai wallet on Android, known for its security and privacy features. However, even the most secure wallet couldn’t prevent a devastating hardware failure. The client’s Android device suffered a complete breakdown, rendering both the display and the motherboard unusable. He remembered 12 out of the 13 words of their wallet passphrase, with the elusive 13th word being the “BIP passphrase.”",
           image:
-            "https://shuffle.dev/gradia-assets/images/features/experts.png",
-          link: "#",
+            "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*WP18v7ohzluqY01_JoPqhQ.png",
+          link: "https://medium.com/moonsyntax/recovered-2-1-btc-from-a-damaged-device-ba145e5f3fe9",
         },
         {
           title: "Post title",
