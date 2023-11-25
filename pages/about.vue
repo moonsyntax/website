@@ -64,17 +64,17 @@
 export default {
   head() {
     return {
-      title: "Moonsyntax - Team",
+      title: "Moonsyntax - About",
       meta: [
         {
           hid: "og:title",
           name: "og:title",
-          content: "Moonsyntax - Team",
+          content: "Moonsyntax - About",
         },
         {
           hid: "twitter:title",
           name: "twitter:title",
-          content: "Moonsyntax - Team",
+          content: "Moonsyntax - About",
         },
         {
           hid: "description",
