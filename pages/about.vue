@@ -5,11 +5,6 @@
         <div class="flex flex-wrap items-center -m-6">
           <div class="w-full md:w-1/2 p-6">
             <div class="max-w-lg">
-              <p
-                class="mb-9 max-w-max font-heading text-xs uppercase font-semibold tracking-px"
-              >
-                OUR TEAM
-              </p>
               <h2
                 class="mb-7 font-heading font-semibold text-6xl sm:text-7xl text-gray-900"
               >
