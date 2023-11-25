@@ -18,9 +18,6 @@
       </div>
       <div class="m-auto max-w-6xl p-5">
         <div class="flex flex-wrap">
-          <div class="m-auto w-full lg:w-1/2 order-last lg:order-first">
-            <Animation loc="contact" />
-          </div>
           <div class="m-auto w-full lg:w-1/2">
             <div class="flex mb-12 items-center">
               <div
@@ -103,6 +100,10 @@
                 >
               </div>
             </div>
+          </div>
+
+          <div class="m-auto w-full lg:w-1/2">
+            <Animation loc="contact" />
           </div>
         </div>
       </div>
