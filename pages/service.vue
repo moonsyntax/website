@@ -52,7 +52,7 @@
       <div class="container px-4 mx-auto">
         <div class="flex flex-wrap lg:items-center -m-8">
           <div class="w-full md:w-1/2 p-8">
-            <div class="max-w-max mx-auto">
+            <div class="mx-auto">
               <Animation
                 class="transform hover:-translate-y-2 transition duration-500"
                 loc="service-pla"
@@ -264,12 +264,10 @@
           </div>
 
           <div class="w-full md:w-1/2 p-8">
-            <div class="max-w-max mx-auto">
-              <!-- Placeholder for your animation or image -->
-              <!-- Replace 'Animation' with your actual component or image tag -->
+            <div class="mx-auto"> 
               <Animation
                 class="transform hover:-translate-y-2 transition duration-500"
-                loc="ser"
+                loc="moon"
               />
             </div>
           </div>
