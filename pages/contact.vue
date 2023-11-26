@@ -68,9 +68,9 @@
                 </svg>
               </div>
               <div>
-                <span class="text-lg text-gray-500">Email Manager</span>
+                <span class="text-lg text-gray-500">Contact Team</span>
                 <span class="block text-lg font-semibold text-gray-900"
-                  >moonsyntax@proton.me</span
+                  >info@moonsyntax.com</span
                 >
               </div>
             </div>
@@ -94,9 +94,9 @@
                 </svg>
               </div>
               <div>
-                <span class="text-lg text-gray-500">Email Organisation</span>
+                <span class="text-lg text-gray-500">Contact Manager</span>
                 <span class="block text-lg font-semibold text-gray-900"
-                  >{{ email }}@moonsyntax.com</span
+                  >x@moonsyntax.com</span
                 >
               </div>
             </div>
@@ -112,8 +112,6 @@
 </template>
 
 <script>
-import axios from "axios";
-
 export default {
   head() {
     return {
@@ -146,21 +144,6 @@ export default {
         },
       ],
     };
-  },
-  data() {
-    return { email: "mail" };
-  },
-
-  async mounted() {
-    const { data } = await axios.get("https://ipapi.co/json/");
-
-    console.log(data);
-
-    const { city } = data;
-
-    if (city) {
-      this.email = city.toLowerCase().replace(/[^a-zA-Z0-9]/g, "") || "talk";
-    }
   },
 };
 </script>
