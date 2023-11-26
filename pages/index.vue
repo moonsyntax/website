@@ -5,6 +5,15 @@
         <div class="flex flex-wrap items-center -m-6 pt-32 pb-36">
           <div class="w-full lg:w-1/2 p-6">
             <div class="lg:max-w-xl">
+              <div
+              v-if="randomPost"
+                class="mb-6 inline-block rounded-full bg-green-100 px-2 py-1 font-semibold"
+              >
+                <div class="-m-1 flex flex-wrap items-center">
+                  <a class="text-sm" target="_blank" :href="randomPost.link[0]">👋 {{  randomPost.title[0] }}</a>
+                </div>
+              </div>
+
               <h1
                 class="mb-6 font-heading text-7xl md:text-10xl xl:text-12xl text-gray-900 font-bold"
               >
@@ -41,3 +50,26 @@
     </section>
   </div>
 </template>
+
+<script>
+import axios from "axios";
+import xml2js from "xml2js";
+
+export default {
+  data() {
+    return {
+      randomPost: null,
+    };
+  },
+  async mounted() {
+    const parser = new xml2js.Parser();
+    const xml = await axios.get("feed.xml");
+
+    parser.parseString(xml.data, (err, result) => {
+      const posts = result.rss.channel[0].item;
+      const randomPost = posts[Math.floor(Math.random() * posts.length)];
+      this.randomPost = randomPost;
+    });
+  },
+};
+</script>
