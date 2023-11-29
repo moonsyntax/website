@@ -6,11 +6,13 @@
           <div class="w-full lg:w-1/2 p-6">
             <div class="lg:max-w-xl">
               <div
-              v-if="randomPost"
+                v-if="randomPost"
                 class="mb-6 inline-block rounded-full bg-green-100 px-2 py-1 font-semibold"
               >
                 <div class="-m-1 flex flex-wrap items-center">
-                  <a class="text-sm" target="_blank" :href="randomPost.link[0]">👋 {{  randomPost.title[0] }}</a>
+                  <a class="text-sm" target="_blank" :href="randomPost.link[0]"
+                    >👋 {{ randomPost.title[0] }}</a
+                  >
                 </div>
               </div>
 
@@ -61,15 +63,17 @@ export default {
       randomPost: null,
     };
   },
+
   async mounted() {
     const parser = new xml2js.Parser();
     const xml = await axios.get("feed.xml");
 
-    parser.parseString(xml.data, (err, result) => {
-      const posts = result.rss.channel[0].item;
-      const randomPost = posts[Math.floor(Math.random() * posts.length)];
-      this.randomPost = randomPost;
-    });
+    setInterval(() => {
+      parser.parseString(xml.data, (err, result) => {
+        const posts = result.rss.channel[0].item;
+        this.randomPost = posts[Math.floor(Math.random() * posts.length)] || { title: ["✅✅✅"], link: [""] }};
+      });
+    }, 12000);
   },
 };
 </script>
