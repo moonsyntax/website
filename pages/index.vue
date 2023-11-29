@@ -71,7 +71,7 @@ export default {
     setInterval(() => {
       parser.parseString(xml.data, (err, result) => {
         const posts = result.rss.channel[0].item;
-        this.randomPost = posts[Math.floor(Math.random() * posts.length)] || { title: ["✅✅✅"], link: [""] }};
+        this.randomPost = posts[Math.floor(Math.random() * posts.length)];
       });
     }, 12000);
   },
