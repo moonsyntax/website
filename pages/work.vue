@@ -66,11 +66,11 @@ export default {
           link: "https://medium.com/moonsyntax/recovered-2-1-btc-from-a-damaged-device-ba145e5f3fe9",
         },
         {
-          title: "Post title",
-          description: "Post description",
+          title: "How We Rescued a Lost Crypto Seed",
+          description: "A client entrusted us with their crypto seed phrase, inscribed on paper using a gel point pen. Unfortunately, moisture caused the ink to expand, blurring the vital 12 words, putting access to their funds in jeopardy.",
           image:
-            "https://shuffle.dev/gradia-assets/images/features/insights.png",
-          link: "#",
+            "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*U2gAKQKwc93TmU9xcgP7jQ.png",
+          link: "https://medium.com/moonsyntax/how-we-restored-lost-crypto-seed-a14c6077942f",
         },
         {
           title: "Post title",
