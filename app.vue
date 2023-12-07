@@ -10,6 +10,7 @@ useSeoMeta({
   ogImage: 'https://moonsyntax.com/banner.png',
   twitterCard: 'summary_large_image',
 })
+
 </script>
 
 <template>
