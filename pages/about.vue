@@ -5,109 +5,91 @@
         <div class="flex flex-wrap items-center -m-6">
           <div class="w-full md:w-1/2 p-6">
             <div class="max-w-lg">
-              <h2
-                class="mb-7 font-heading font-semibold text-6xl sm:text-7xl text-gray-900"
-              >
-                Moonsyntax fuels innovation.
-              </h2>
+              <h2 class="mb-7 font-heading font-semibold text-6xl sm:text-7xl text-gray-900 uppercase">
+                Innovating with Moonsyntax </h2>
               <p class="text-xl text-gray-900">
-                Our team is made up of experts in their respective fields, each
-                bringing a unique perspective and skill set to the table.
-                Together, we work towards achieving our mission of advancing the
-                world through cutting-edge technology and strategic investments.
+                Our team comprises industry experts, each contributing a distinct
+                perspective and skill set. Together, we drive our mission forward—
+                propelling the world through pioneering technology and strategic
+                investments.
               </p>
             </div>
           </div>
           <div class="w-full md:w-1/2 p-6">
-            <Animation loc="team" />
+             <anim loc="/anim/team.json" />
           </div>
         </div>
       </div>
     </section>
 
-    <div class="py-10 m-auto container">
-      <section class="grid w-full grid-cols-1 gap-10 md:grid-cols-4">
-        <div v-for="(team, index) of teams" :key="index">
-          <div
-            class="flex flex-col col-span-1 hover:col-span-2 items-center justify-center shadow-xl py-10 px-10 transform duration-500 hover:-translate-y-5 cursor-pointer rounded-md bg-yellow-50"
-          >
-            <div class="relative p-5">
-              <div
-                class="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full"
-                :class="theme[index]"
-              ></div>
-              <img
-                class="relative z-10 w-full rounded-full"
-                v-bind:src="'/team/' + team.pic + '.png'"
-              />
+
+
+    <div class=" bg-yellow-50">
+      <div class="py-20 m-auto container">
+        <section class="grid w-full grid-cols-1 gap-10 md:grid-cols-4">
+          <div v-for="(team, index) of teams" :key="index">
+            <div
+              class="bg-white flex flex-col col-span-1 hover:col-span-2 items-center justify-center shadow-xl py-10 px-10 transform duration-500 hover:scale-110 border-2 rounded-lg border-dashed hover:border-double border-2 border-black">
+              <div class="relative p-5">
+                <div class="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full"></div>
+                <img class="relative z-10 w-full rounded-full" v-bind:src="'/team/' + team.pic + '.png'" />
+              </div>
+              <div class="mt-3 py-5 text-center">
+                <h3 class="font-medium text-xl">{{ team.name }}</h3>
+                <p>{ {{ team.title }} }</p>
+                <p class="transition-opacity duration-300 mt-2 text-sm">
+                  {{ team.superpower }}
+                </p>
+              </div>
             </div>
-            <div class="mt-3 py-5 text-center">
-              <h3 class="font-medium text-xl">{{ team.name }}</h3>
-              <p>{ {{ team.title }} }</p>
-              <p class="transition-opacity duration-300 mt-2 text-sm">
-                {{ team.superpower }}
-              </p>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div class="my-20 py-20">
+      <div class="container px-4 mx-auto">
+        <div class="flex flex-wrap items-center -m-8">
+          <div class="w-full md:w-1/2 p-8">
+
+            <anim loc="/anim/circ.json" />
+
+
+          </div>
+          <div class="w-full md:w-1/2 p-8">
+            <div class="md:max-w-md">
+              <div class="flex flex-wrap -m-6">
+                <div class="w-auto p-6">
+                  <h3 class="mb-4 text-3xl font-semibold tracking-tighter" style="letter-spacing: -0.5px;">Revolutionary
+                    Work Culture</h3>
+                  <p class="tracking-tight">At MoonSyntax, we don't operate like traditional companies. We prioritize
+                    freedom for our team members. Every individual has the autonomy to lead, choose tasks they resonate
+                    with, and set their flexible working hours and days.</p>
+                </div>
+                <div class="w-auto p-6">
+                  <h3 class="mb-4 text-3xl font-semibold tracking-tighter" style="letter-spacing: -0.5px;">Perks That
+                    Matter
+                  </h3>
+                  <p class="tracking-tight">We believe in a comfortable work environment. Our benefits include unlimited
+                    holidays, paid leaves, comprehensive medical insurance, and a food allowance. We're committed to
+                    fostering an atmosphere where well-being leads to exceptional results.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </div>
+
+
+
   </div>
 </template>
 
 <script>
 export default {
-  head() {
-    return {
-      title: "Moonsyntax - About",
-      meta: [
-        {
-          hid: "og:title",
-          name: "og:title",
-          content: "Moonsyntax - About",
-        },
-        {
-          hid: "twitter:title",
-          name: "twitter:title",
-          content: "Moonsyntax - About",
-        },
-        {
-          hid: "description",
-          name: "description",
-          content:
-            "Our team is made up of experts in their respective fields, each bringing a unique perspective and skill set to the table. Together, we work towards achieving our mission of advancing the world through cutting-edge technology and strategic investments.",
-        },
-        {
-          hid: "og:description",
-          name: "og:description",
-          content:
-            "Our team is made up of experts in their respective fields, each bringing a unique perspective and skill set to the table. Together, we work towards achieving our mission of advancing the world through cutting-edge technology and strategic investments.",
-        },
-        {
-          hid: "twitter:description",
-          name: "twitter:description",
-          content:
-            "Our team is made up of experts in their respective fields, each bringing a unique perspective and skill set to the table. Together, we work towards achieving our mission of advancing the world through cutting-edge technology and strategic investments.",
-        },
-      ],
-    };
-  },
   data() {
     return {
-      theme: [
-        "bg-red-100",
-        "bg-blue-100",
-        "bg-green-100",
-        "bg-yellow-100",
-        "bg-purple-100",
-        "bg-blue-100",
-        "bg-red-100",
-        "bg-blue-100",
-        "bg-green-100",
-        "bg-yellow-100",
-        "bg-purple-100",
-        "bg-blue-100",
-      ],
       teams: [
         {
           name: "Alex Johnson",
