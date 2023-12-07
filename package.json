@@ -16,7 +16,6 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "@dotlottie/player-component": "^2.7.2",
     "@lottiefiles/lottie-player": "^2.0.2"
   }
 }
