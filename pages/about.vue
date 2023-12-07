@@ -16,14 +16,11 @@
             </div>
           </div>
           <div class="w-full md:w-1/2 p-6">
-             <anim loc="/anim/team.json" />
+            <anim loc="/anim/team.json" />
           </div>
         </div>
       </div>
     </section>
-
-
-
     <div class=" bg-yellow-50">
       <div class="py-20 m-auto container">
         <section class="grid w-full grid-cols-1 gap-10 md:grid-cols-4">
@@ -51,10 +48,7 @@
       <div class="container px-4 mx-auto">
         <div class="flex flex-wrap items-center -m-8">
           <div class="w-full md:w-1/2 p-8">
-
             <anim loc="/anim/circ.json" />
-
-
           </div>
           <div class="w-full md:w-1/2 p-8">
             <div class="md:max-w-md">

@@ -38,26 +38,23 @@
           </div>
           <div class="w-full md:w-1/2 p-8">
             <div class="max-w-max mx-auto">
-              <Anim class="transform hover:-translate-y-2 transition duration-500"
-                loc="/anim/service-mo.json" />
+              <Anim class="transform hover:-translate-y-2 transition duration-500" loc="/anim/service-mo.json" />
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="py-24 lg:py-32  overflow-hidden bg-yellow-50">
-      <div class="container px-4 mx-auto">
-        <div class="flex flex-wrap lg:items-center -m-8">
+    <section class="py-24 lg:py-32 overflow-hidden bg-yellow-50">
+      <div class="container max-w-7xl px-4 mx-auto">
+        <div class="flex flex-wrap">
           <div class="w-full md:w-1/2 p-8">
-            <div class="mx-auto">
-
-              <Anim class="transform hover:-translate-y-2 transition duration-500"
-                loc="/anim/service-pla.json" />
-             </div>
+            <div class="m-auto">
+              <Anim class="transform hover:-translate-y-2 transition duration-500" loc="/anim/dsei.json" />
+            </div>
           </div>
           <div class="w-full md:w-1/2 p-8">
-            <div class="md:max-w-xl">
+            <div class="m-auto">
               <h2 class="font-heading mb-6 text-6xl tracking-tighter">
                 Elevate Your Blockchain Venture
               </h2>
@@ -181,21 +178,18 @@
 
           <div class="w-full md:w-2/3 p-8">
             <div class="mx-auto">
-              <fimg color="bg-yellow-100" imgsrc="/code.png" />
+              <Anim class="transform hover:-translate-y-2 transition duration-500" loc="/anim/service-pla.json" />
+
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="py-24 lg:pb-28 bg-gray-100 overflow-hidden">
+    <section class="py-24 overflow-hidden bg-yellow-50 ">
       <div class="container px-4 mx-auto">
-        <div class="mb-24 max-w-xl">
-          <h2 class="font-heading mb-8 text-6xl tracking-tighter">
-            Empower Your Startup with Moon Syntax
-          </h2>
-        </div>
-        <div class="flex flex-wrap -mx-8">
+
+        <div class="flex flex-wrap  ">
           <div class="w-full md:w-1/2 lg:w-1/4 px-8 mb-8">
             <div class="max-w-xs mx-auto">
               <img class="mb-6" src="https://shuffle.dev/basko-assets/images/features/work.png" alt="" />
