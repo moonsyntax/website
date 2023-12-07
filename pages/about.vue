@@ -26,7 +26,7 @@
         <section class="grid w-full grid-cols-1 gap-10 md:grid-cols-4">
           <div v-for="(team, index) of teams" :key="index">
             <div
-              class="bg-white flex flex-col col-span-1 hover:col-span-2 items-center justify-center shadow-xl py-10 px-10 transform duration-500 hover:scale-110 border-2 rounded-lg border-dashed hover:border-double border-2 border-black">
+              class="bg-white flex flex-col col-span-1 hover:col-span-2 items-center justify-center shadow-xl py-10 px-10 transform duration-500 hover:scale-110 border-2 rounded-lg hover:border-dashed border-double border-black">
               <div class="relative p-5">
                 <div class="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full"></div>
                 <img class="relative z-10 w-full rounded-full" v-bind:src="'/team/' + team.pic + '.png'" />
