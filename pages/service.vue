@@ -66,9 +66,9 @@
                 <h3 class="mb-8 text-xl font-semibold tracking-tight">
                   Our Offerings Include:
                 </h3>
-                <div class="flex flex-wrap justify-between -m-2">
+                <div class="flex flex-wrap justify-between m-2">
                   <div class="w-auto p-2">
-                    <ul class="-m-2">
+                    <ul class="m-2">
                       <li class="flex items-center p-2">
                         <svg class="mr-3" width="22" height="22" viewBox="0 0 22 22" fill="none"
                           xmlns="http://www.w3.org/2000/svg">
