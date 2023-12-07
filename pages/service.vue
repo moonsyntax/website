@@ -48,91 +48,82 @@
     <section class="py-24 lg:py-32 overflow-hidden bg-yellow-50">
       <div class="container px-4 mx-auto">
         <div class="flex flex-wrap">
-          <div class="w-full md:w-1/2 p-8">
-            <div class="m-auto">
-              <Anim class="transform hover:-translate-y-2 transition duration-500" loc="/anim/dsei.json" />
-            </div>
+          <div class="w-full md:w-1/2 m-auto">
+            <Anim class="transform hover:-translate-y-2 transition duration-500" loc="/anim/dsei.json" />
           </div>
-          <div class="w-full md:w-1/2 p-8">
-            <div class="m-auto">
-              <h2 class="font-heading mb-6 text-6xl tracking-tighter">
-                Elevate Your Blockchain Venture
-              </h2>
-              <p class="mb-20 text-xl tracking-tight">
-                Moon Syntax offers a diverse range of specialized services to
-                bolster your blockchain project's success.
-              </p>
-              <div class="max-w-md">
-                <h3 class="mb-8 text-xl font-semibold tracking-tight">
-                  Our Offerings Include:
-                </h3>
-                <div class="flex flex-wrap justify-between m-2">
-                  <div class="w-auto p-2">
-                    <ul class="m-2">
-                      <li class="flex items-center p-2">
-                        <svg class="mr-3" width="22" height="22" viewBox="0 0 22 22" fill="none"
-                          xmlns="http://www.w3.org/2000/svg">
-                          <path d="M4.58398 11.917L8.25065 15.5837L17.4173 6.41699" stroke="#171A1F" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg>
-                        <span class="font-medium tracking-tight">Project Management
-                        </span>
-                      </li>
-                      <li class="flex items-center p-2">
-                        <svg class="mr-3" width="22" height="22" viewBox="0 0 22 22" fill="none"
-                          xmlns="http://www.w3.org/2000/svg">
-                          <path d="M4.58398 11.917L8.25065 15.5837L17.4173 6.41699" stroke="#171A1F" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg>
-                        <span class="font-medium tracking-tight">Project Audit
-                        </span>
-                      </li>
-                      <li class="flex items-center p-2">
-                        <svg class="mr-3" width="22" height="22" viewBox="0 0 22 22" fill="none"
-                          xmlns="http://www.w3.org/2000/svg">
-                          <path d="M4.58398 11.917L8.25065 15.5837L17.4173 6.41699" stroke="#171A1F" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg>
-                        <span class="font-medium tracking-tight">Project Development
-                        </span>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="w-auto p-2">
-                    <ul class="-m-2">
-                      <li class="flex items-center p-2">
-                        <svg class="mr-3" width="22" height="22" viewBox="0 0 22 22" fill="none"
-                          xmlns="http://www.w3.org/2000/svg">
-                          <path d="M4.58398 11.917L8.25065 15.5837L17.4173 6.41699" stroke="#171A1F" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg>
-                        <span class="font-medium tracking-tight">Web3 Consultation
-                        </span>
-                      </li>
-                      <li class="flex items-center p-2">
-                        <svg class="mr-3" width="22" height="22" viewBox="0 0 22 22" fill="none"
-                          xmlns="http://www.w3.org/2000/svg">
-                          <path d="M4.58398 11.917L8.25065 15.5837L17.4173 6.41699" stroke="#171A1F" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg>
-                        <span class="font-medium tracking-tight">Crypto Insurance
-                        </span>
-                      </li>
-                      <li class="flex items-center p-2">
-                        <svg class="mr-3" width="22" height="22" viewBox="0 0 22 22" fill="none"
-                          xmlns="http://www.w3.org/2000/svg">
-                          <path d="M4.58398 11.917L8.25065 15.5837L17.4173 6.41699" stroke="#171A1F" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg>
-                        <span class="font-medium tracking-tight">Cold Storage Solutions
-                        </span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+          <div class="w-full md:w-1/2 m-auto">
+
+            <p class="mb-20 text-xl lg:text-2xl tracking-tight">
+              Moon Syntax offers a diverse range of specialized services to
+              bolster your blockchain project's success.
+            </p>
+            <div class="max-w-md">
+              <h3 class="mb-8 text-xl font-semibold tracking-tight">
+                Our Offerings Include:
+              </h3>
+              <div class="flex flex-wrap justify-between m-2">
+                <ul class="-m-2">
+                  <li class="flex items-center p-2">
+                    <svg class="mr-3" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.58398 11.917L8.25065 15.5837L17.4173 6.41699" stroke="#171A1F" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <span class="font-medium tracking-tight">Project Management
+                    </span>
+                  </li>
+                  <li class="flex items-center p-2">
+                    <svg class="mr-3" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.58398 11.917L8.25065 15.5837L17.4173 6.41699" stroke="#171A1F" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <span class="font-medium tracking-tight">Project Audit
+                    </span>
+                  </li>
+                  <li class="flex items-center p-2">
+                    <svg class="mr-3" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.58398 11.917L8.25065 15.5837L17.4173 6.41699" stroke="#171A1F" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <span class="font-medium tracking-tight">Project Development
+                    </span>
+                  </li>
+                </ul>
+                <ul class="-m-2">
+                  <li class="flex items-center p-2">
+                    <svg class="mr-3" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.58398 11.917L8.25065 15.5837L17.4173 6.41699" stroke="#171A1F" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <span class="font-medium tracking-tight">Web3 Consultation
+                    </span>
+                  </li>
+                  <li class="flex items-center p-2">
+                    <svg class="mr-3" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.58398 11.917L8.25065 15.5837L17.4173 6.41699" stroke="#171A1F" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <span class="font-medium tracking-tight">Crypto Insurance
+                    </span>
+                  </li>
+                  <li class="flex items-center p-2">
+                    <svg class="mr-3" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.58398 11.917L8.25065 15.5837L17.4173 6.41699" stroke="#171A1F" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <span class="font-medium tracking-tight">Cold Storage Solutions
+                    </span>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </section>
