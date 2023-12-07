@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="py-24 lg:py-44 overflow-hidden">
+    <section class="py-24 lg:py-32 overflow-hidden">
       <div class="container px-4 mx-auto">
         <div class="flex flex-wrap lg:items-center -m-8">
           <div class="w-full md:w-1/2 p-8">
@@ -46,7 +46,7 @@
       </div>
     </section>
 
-    <section class="py-24 lg:py-32 bg-gray-100 overflow-hidden">
+    <section class="py-24 lg:py-32  overflow-hidden bg-yellow-50">
       <div class="container px-4 mx-auto">
         <div class="flex flex-wrap lg:items-center -m-8">
           <div class="w-full md:w-1/2 p-8">
