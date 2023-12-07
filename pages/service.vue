@@ -46,7 +46,7 @@
     </section>
 
     <section class="py-24 lg:py-32 overflow-hidden bg-yellow-50">
-      <div class="container max-w-7xl px-4 mx-auto">
+      <div class="container px-4 mx-auto">
         <div class="flex flex-wrap">
           <div class="w-full md:w-1/2 p-8">
             <div class="m-auto">
