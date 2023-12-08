@@ -54,11 +54,11 @@ export default {
           link: "https://medium.com/moonsyntax/how-we-restored-lost-crypto-seed-a14c6077942f",
         },
         {
-          title: "Post title",
-          description: "Post description",
+          title: "UAEs $380 Million Bitcoin Mining Revolution by Phoenix Group PLC",
+          description: "Phoenix Group PLC, a pioneering force in UAE’s bitcoin mining sector, has sealed a groundbreaking pact with Microbt, a renowned mining rig manufacturer, worth over $380 million. This colossal agreement involves an initial mining equipment acquisition valued at $136 million, along with an option for an additional $246 million.",
           image:
-            "https://shuffle.dev/gradia-assets/images/features/results.png",
-          link: "#",
+            "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*ExXgQZ_oVcgc6h3Q9BfT5g.png",
+          link: "https://medium.com/moonsyntax/uaes-380-million-bitcoin-mining-revolution-by-phoenix-group-plc-a674618f5b8d",
         },
       ],
     };
