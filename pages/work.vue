@@ -43,7 +43,7 @@ export default {
           title: "Recovered 2.1 BTC from a Damaged Device",
           description: "Our client was a user of the Samurai wallet on Android, known for its security and privacy features. However, even the most secure wallet couldn’t prevent a devastating hardware failure. The client’s Android device suffered a complete breakdown, rendering both the display and the motherboard unusable. He remembered 12 out of the 13 words of their wallet passphrase, with the elusive 13th word being the “BIP passphrase.”",
           image:
-            "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*WP18v7ohzluqY01_JoPqhQ.png",
+            "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*gqMYLAZzT1L_3Rm2opdoPw.png",
           link: "https://medium.com/moonsyntax/recovered-2-1-btc-from-a-damaged-device-ba145e5f3fe9",
         },
         {
