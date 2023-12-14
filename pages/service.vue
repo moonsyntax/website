@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="py-24 lg:py-32 overflow-hidden">
-      <div class="container px-4 mx-auto">
+      <div class=" px-4 m-auto max-w-7xl">
         <div class="flex flex-wrap lg:items-center -m-8">
           <div class="w-full md:w-1/2 p-8">
             <div class="md:max-w-xl">
@@ -46,7 +46,7 @@
     </section>
 
     <section class="py-24 lg:py-32 overflow-hidden bg-yellow-50">
-      <div class="container px-4 mx-auto">
+      <div class=" px-4 m-auto max-w-7xl">
         <div class="flex flex-wrap">
           <div class="w-full md:w-1/2 m-auto">
             <Anim class="transform hover:-translate-y-2 transition duration-500" loc="/anim/dsei.json" />
@@ -129,7 +129,7 @@
     </section>
 
     <section class="py-24 lg:py-40 overflow-hidden">
-      <div class="container px-4 mx-auto">
+      <div class="  px-4 m-auto max-w-7xl">
         <div class="flex flex-wrap items-center -m-8">
           <div class="w-full md:w-1/3 p-8">
             <div class="md:max-w-md">
@@ -178,7 +178,7 @@
     </section>
 
     <section class="py-24 overflow-hidden bg-yellow-50 ">
-      <div class="container px-4 mx-auto">
+      <div class="  px-4 m-auto max-w-7xl">
 
         <div class="flex flex-wrap  ">
           <div class="w-full md:w-1/2 lg:w-1/4 px-8 mb-8">

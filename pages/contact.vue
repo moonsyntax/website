@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="py-20 md:py-32 overflow-hidden">
-      <div class="max-w-2xl text-center mx-auto mb-20">
+      <div class="max-w-3xl text-center mx-auto mb-20">
         <span class="inline-block py-1 px-3 mb-4 text-xs font-semibold text-orange-900 bg-orange-50 rounded-full">Feel
           free to contact us.</span>
         <h1 class="font-heading text-5xl xs:text-6xl font-bold text-gray-900 mb-4">
@@ -12,7 +12,7 @@
           We are always open to new ideas and collaborations.
         </p>
       </div>
-      <div class="m-auto max-w-6xl p-5">
+      <div class="m-auto max-w-7xl p-5">
         <div class="flex flex-wrap">
           <div class="m-auto w-full lg:w-1/2">
             <anim loc="/anim/contact.json" />
