@@ -1,8 +1,5 @@
 <template>
-	<div
-		:style="{ backgroundImage: `url(${wave1})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }"
-		class="min-h-screen bg-yellow-100"
-	>
+	<div :style="{ backgroundImage: `url(${wave1})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }" class="min-h-screen">
 		<div class="m-auto p-3 max-w-7xl">
 			<div class="font-bold uppercase text-gray-600 hover:text-gray-800">
 				<div class="m-auto container py-6 px-3">
