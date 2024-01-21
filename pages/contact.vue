@@ -4,7 +4,7 @@
 			<div class="max-w-2xl mx-auto my-20 text-center">
 				<h1 class="text-6xl sm:text-7xl font-heading font-semibold mb-10">Stay Connected</h1>
 			</div>
-			<div class="max-w-6xl m-auto bg-yellow-200 rounded-2xl px-20 py-10">
+			<div class="max-w-6xl m-auto px-20 py-10">
 				<div class="flex flex-wrap justify-between items-center">
 					<div class="w-full lg:w-2/4">
 						<anim class="mx-auto" loc="/anim/contact.json" />

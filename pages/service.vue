@@ -46,7 +46,7 @@
 			</div>
 		</div>
 
-		<div class="p-5 my-20 m-auto bg-yellow-200 rounded-2xl">
+		<div class="p-5 my-20 m-auto">
 			<div class="flex flex-wrap">
 				<div class="w-full md:w-1/2 m-auto">
 					<Anim class="transform hover:-translate-y-2 transition duration-500" loc="/anim/dsei.json" />
