@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   ssr: false,
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss"],
+  modules: ["@nuxtjs/tailwindcss", '@nuxt/content'],
   vue: {
     compilerOptions: {
       isCustomElement: (tag) => ['lottie-player'].includes(tag),
