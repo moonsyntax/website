@@ -23,5 +23,5 @@
 <script setup>
 	const route = useRoute();
 
-	import wave1 from '@/public/blob-haikei.svg';
+	import wave1 from '/blob-haikei.svg';
 </script>
