@@ -60,6 +60,6 @@
 	}
 
 	img {
-		@apply my-6 rounded-lg w-full h-auto;
+		@apply my-10 py-10 rounded-lg w-full h-auto;
 	}
 </style>
