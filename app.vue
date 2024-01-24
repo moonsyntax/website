@@ -23,3 +23,10 @@
 
 	import wave1 from '/blob-haikei.svg';
 </script>
+
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300;500&display=swap');
+
+	font-family: 'Lato', sans-serif;
+	font-family: 'Poppins', sans-serif;
+</style>
