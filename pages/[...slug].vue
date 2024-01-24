@@ -1,6 +1,6 @@
 <template>
 	<main>
-		<div class="bg-white max-w-4xl my-20 py-20 rounded-2xl">
+		<div class="my-20 py-20 rounded-2xl">
 			<ContentRenderer :value="data">
 				<div class="max-w-2xl mx-auto mb-16 text-center">
 					<p class="font-medium uppercase">
@@ -18,7 +18,11 @@
 					</h2>
 				</div>
 
-				<ContentRendererMarkdown :value="data" />
+				<img :src="data.image" class="mb-6 rounded-lg" />
+
+				<div class="my-20"></div>
+
+				<ContentRendererMarkdown :value="data" class="bg-white" />
 			</ContentRenderer>
 		</div>
 	</main>
