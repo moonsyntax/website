@@ -20,7 +20,7 @@
 			</div>
 		</div>
 
-		<div class="m-auto py-20">
+		<div class="m-auto my-14">
 			<ContentList v-slot="{ list }">
 				<div class="flex flex-col sm:flex-row gap-10 lg:items-center">
 					<div v-for="article in list" :key="article._path" class="w-full lg:w-1/2 p-5">
