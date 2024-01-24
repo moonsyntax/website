@@ -2,7 +2,22 @@
 	<main>
 		<div class="bg-white max-w-4xl my-20 py-20 rounded-2xl">
 			<ContentRenderer :value="data">
-				<h1>{{ data.title }}</h1>
+				<div class="max-w-2xl mx-auto mb-16 text-center">
+					<p class="font-medium uppercase">
+						<span
+							v-for="(tag, index) in data.tags"
+							:key="index"
+							class="px-2 py-1 m-1 bg-blue-200 rounded"
+						>
+							{{ tag }}
+						</span>
+					</p>
+
+					<h2 class="mt-2 mb-6 text-4xl lg:text-5xl font-bold font-heading">
+						{{ data.title }}
+					</h2>
+				</div>
+
 				<ContentRendererMarkdown :value="data" />
 			</ContentRenderer>
 		</div>

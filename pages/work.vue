@@ -1,8 +1,8 @@
 <template>
 	<div class="container mx-auto py-20">
-		<ContentList v-slot="{ list }" class="-m-4 flex flex-wrap">
-			<div v-for="article in list" :key="article._path">
-				<div class="w-full p-4 lg:w-1/2">
+		<ContentList v-slot="{ list }">
+			<div class="flex flex-col sm:flex-row gap-10 lg:items-center">
+				<div v-for="article in list" :key="article._path" class="w-full lg:w-1/2 p-5">
 					<a
 						class="group block transform rounded-lg bg-white p-6 transition duration-500 hover:-translate-y-2"
 						:href="article._path"
