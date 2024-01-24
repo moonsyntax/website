@@ -15,7 +15,7 @@
 						<span
 							v-for="(tag, index) in data.tags"
 							:key="index"
-							class="px-2 py-1 m-1 bg-blue-200 rounded"
+							class="px-2 py-1 m-1 bg-yellow-200 rounded"
 						>
 							{{ tag }}
 						</span>
