@@ -18,11 +18,13 @@
 					</h2>
 				</div>
 
-				<img :src="data.image" class="mb-6 rounded-lg" />
+				<img :src="data.image" class="mb-6 rounded-lg w-full" />
 
 				<div class="my-20"></div>
 
-				<ContentRendererMarkdown :value="data" class="bg-white" />
+				<div class="my-20 bg-white max-w-4xl m-auto p-8 rounded-2xl">
+					<ContentRendererMarkdown :value="data" class="" />
+				</div>
 			</ContentRenderer>
 		</div>
 	</main>
