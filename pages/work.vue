@@ -1,4 +1,23 @@
 <template>
+	<div class="m-auto p-4 my-20">
+		<div class="flex flex-wrap items-center -m-6">
+			<div class="w-full md:w-1/2 p-6">
+				<div class="max-w-lg">
+					<h2 class="mb-7 font-heading font-semibold text-3xl sm:text-5xl text-gray-900 uppercase">
+						Our Work
+					</h2>
+					<p class="text-xl text-gray-900">
+						We have worked with various companies and people to secure their blockchain projects. We
+						recover lost funds, secure smart contracts, and provide security audits.
+					</p>
+				</div>
+			</div>
+			<div class="w-full md:w-1/2 p-6">
+				<anim loc="/anim/work.json" />
+			</div>
+		</div>
+	</div>
+
 	<div class="container mx-auto py-20">
 		<ContentList v-slot="{ list }">
 			<div class="flex flex-col sm:flex-row gap-10 lg:items-center">
