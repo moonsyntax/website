@@ -49,6 +49,7 @@
 		</ContentList>
 	</div>
 </template>
+
 <script setup lang="ts">
 	useSeoMeta({
 		title: 'Our Work',
