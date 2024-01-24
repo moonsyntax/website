@@ -1,5 +1,5 @@
 <template>
 	<div class="mt-7">
-		<p class="text-2xl text-semibold"><slot /></p>
+		<h4 class="text-2xl text-semibold"><slot /></h4>
 	</div>
 </template>

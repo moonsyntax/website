@@ -1,5 +1,5 @@
 <template>
-	<div class="py-10 lg:py-20 m-auto">
+	<div class="py-10 m-auto">
 		<img :src="src" class="w-full h-auto hover:scale-110 transition delay-700 duration-300 ease-in-out" />
 	</div>
 </template>
