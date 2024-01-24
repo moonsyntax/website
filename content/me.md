@@ -15,8 +15,6 @@ Realizing the gravity of the situation, the client tried recovering their funds 
 
 ![image](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*J-nh_uGLRwL_aQnAsDg1Wg.png)
 
-## Assessment
-
 When the client approached us for assistance, they couldn’t provide a definitive answer regarding the length of the 13th word. Uncertainty surrounded whether it exceeded 12 letters or not. This posed a significant challenge to our recovery efforts. To address this ambiguity, we devised a two-pronged strategy.
 
 ## Approach
