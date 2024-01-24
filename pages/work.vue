@@ -30,3 +30,11 @@
 		</ContentList>
 	</div>
 </template>
+<script setup lang="ts">
+	useSeoMeta({
+		title: 'Our Work',
+		ogTitle: 'Our Work',
+		description: "Moon Syntax offers a diverse range of specialized services to bolster your blockchain project's success.",
+		ogDescription: "Moon Syntax offers a diverse range of specialized services to bolster your blockchain project's success.",
+	});
+</script>

@@ -254,3 +254,12 @@
 		</div>
 	</div>
 </template>
+
+<script setup lang="ts">
+	useSeoMeta({
+		title: 'Our Services',
+		ogTitle: 'Our Services',
+		description: "Moon Syntax offers a diverse range of specialized services to bolster your blockchain project's success.",
+		ogDescription: "Moon Syntax offers a diverse range of specialized services to bolster your blockchain project's success.",
+	});
+</script>

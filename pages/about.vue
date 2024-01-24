@@ -95,6 +95,14 @@
 </template>
 
 <script>
+	useSeoMeta({
+		title: 'About Us',
+		ogTitle: 'About Us',
+		description: 'Moon Syntax is a leading blockchain security firm. We offer a diverse range of specialized services to bolster your blockchain project’s success.',
+		ogDescription:
+			'Moon Syntax is a leading blockchain security firm. We offer a diverse range of specialized services to bolster your blockchain project’s success.',
+	});
+
 	export default {
 		data() {
 			return {

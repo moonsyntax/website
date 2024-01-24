@@ -31,3 +31,12 @@
 		</div>
 	</div>
 </template>
+
+<script setup lang="ts">
+	useSeoMeta({
+		title: 'Contact Us',
+		ogTitle: 'Contact Us',
+		description: 'Contact us for any queries you have. We are always open to new ideas and collaborations.',
+		ogDescription: 'Contact us for any queries you have. We are always open to new ideas and collaborations.',
+	});
+</script>
