@@ -1,9 +1,9 @@
 <template>
 	<main>
-		<div class="my-20 py-20 rounded-2xl">
+		<div class="my-20 py-10 rounded-2xl">
 			<ContentRenderer :value="data">
 				<div class="max-w-2xl mx-auto mb-16 text-center">
-					<p class="font-medium uppercase">
+					<div class="font-medium uppercase">
 						<span
 							v-for="(tag, index) in data.tags"
 							:key="index"
@@ -11,14 +11,14 @@
 						>
 							{{ tag }}
 						</span>
-					</p>
+					</div>
 
-					<h2 class="mt-2 mb-6 text-4xl lg:text-5xl font-bold font-heading">
+					<div class="mt-2 mb-6 text-4xl lg:text-5xl font-bold font-heading">
 						{{ data.title }}
-					</h2>
+					</div>
 				</div>
 
-				<img :src="data.image" class="mb-6 rounded-lg w-full" />
+				<img :src="data.image" />
 
 				<div class="my-20"></div>
 
@@ -37,3 +37,29 @@
 
 	const { data } = await useAsyncData('page-data', () => queryContent(route).findOne());
 </script>
+
+<style>
+	p {
+		@apply my-2 text-lg leading-relaxed;
+	}
+
+	h1 {
+		@apply my-8 text-5xl font-bold;
+	}
+
+	h2 {
+		@apply my-6 text-4xl font-bold;
+	}
+
+	h3 {
+		@apply my-4 text-3xl font-bold;
+	}
+
+	h4 {
+		@apply my-2 text-2xl font-bold;
+	}
+
+	img {
+		@apply my-6 rounded-lg w-full h-auto;
+	}
+</style>
