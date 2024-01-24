@@ -1,7 +1,7 @@
 <script setup lang="ts">
 	const router = useRouter();
 
-	const route = router.currentRoute.value.params.slug;
+	const route = router.currentRoute.value.params.slug.join('/');
 
 	const { data } = await useAsyncData('page-data', () => queryContent(route).findOne());
 </script>
