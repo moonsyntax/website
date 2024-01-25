@@ -4,10 +4,34 @@
 	const route = router.currentRoute.value.params.slug.join('/');
 
 	const { data } = await useAsyncData('page-data', () => queryContent(route).findOne());
+
+	useSeoMeta({
+		title: () => data.value?.title,
+		description: () => data.value?.description,
+		image: () => data.value?.image,
+		ogTitle: () => data.value?.title,
+		ogDescription: () => data.value?.description,
+		ogImage: () => data.value?.image,
+
+		twitterTitle: () => data.value?.title,
+		twitterDescription: () => data.value?.description,
+		twitterImage: () => data.value?.image,
+
+		ogUrl: () => `https://moonsyntax.com/${route}`,
+		twitterUrl: () => `https://moonsyntax.com/${route}`,
+
+		ogType: () => 'article',
+		twitterCard: () => 'summary_large_image',
+
+		ogSiteName: () => 'Moon Syntax',
+		twitterSite: () => '@moonsyntax',
+
+		ogLocale: () => 'en_US',
+	});
 </script>
 
 <template>
-	<main>
+	<div>
 		<div class="my-20 py-10 rounded-2xl">
 			<ContentRenderer :value="data">
 				<div class="max-w-3xl mx-auto mb-16 text-center">
@@ -38,5 +62,5 @@
 				</div>
 			</ContentRenderer>
 		</div>
-	</main>
+	</div>
 </template>

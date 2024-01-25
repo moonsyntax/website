@@ -93,61 +93,49 @@
 		</div>
 	</div>
 </template>
+<script setup>
+	import { ref, onMounted } from 'vue';
 
-<script>
-	useSeoMeta({
-		title: 'About Us',
-		ogTitle: 'About Us',
-		description: 'Moon Syntax is a leading blockchain security firm. We offer a diverse range of specialized services to bolster your blockchain project’s success.',
-		ogDescription:
-			'Moon Syntax is a leading blockchain security firm. We offer a diverse range of specialized services to bolster your blockchain project’s success.',
+	const teams = ref([
+		{
+			name: 'Alex Johnson',
+			title: 'Chief Technology Officer',
+			superpower: 'Ability to code at lightning speed and solve complex technical problems effortlessly',
+			pic: 'alex', // Add the picture name here
+		},
+		{
+			name: 'Sarah Lee',
+			title: 'Head of User Experience Design',
+			superpower: 'Ability to create intuitive and visually stunning user interfaces that keep users engaged',
+			pic: 'sarah', // Add the picture name here
+		},
+		{
+			name: 'David Kim',
+			title: 'Lead Data Scientist',
+			superpower: 'Ability to analyze large datasets and extract valuable insights that drive business decisions',
+			pic: 'david', // Add the picture name here
+		},
+		{
+			name: 'Emily Chen',
+			title: 'Director of Cybersecurity',
+			superpower: "Ability to identify and neutralize cyber threats before they cause any damage to the company's systems",
+			pic: 'emily', // Add the picture name here
+		},
+		{
+			name: 'Michael Brown',
+			title: 'Senior Software Engineer',
+			superpower: "Ability to write clean, efficient, and scalable code that powers the company's products and services",
+			pic: 'michael', // Add the picture name here
+		},
+		{
+			name: 'Eric G',
+			title: 'Project Manager',
+			superpower: 'Ability to coordinate multiple teams and ensure projects are delivered on time, within budget, and with high quality',
+			pic: 'eric', // Add the picture name here
+		},
+	]);
+
+	onMounted(() => {
+		teams.value.sort(() => Math.random() - 0.5);
 	});
-
-	export default {
-		data() {
-			return {
-				teams: [
-					{
-						name: 'Alex Johnson',
-						title: 'Chief Technology Officer',
-						superpower: 'Ability to code at lightning speed and solve complex technical problems effortlessly',
-						pic: 'alex', // Add the picture name here
-					},
-					{
-						name: 'Sarah Lee',
-						title: 'Head of User Experience Design',
-						superpower: 'Ability to create intuitive and visually stunning user interfaces that keep users engaged',
-						pic: 'sarah', // Add the picture name here
-					},
-					{
-						name: 'David Kim',
-						title: 'Lead Data Scientist',
-						superpower: 'Ability to analyze large datasets and extract valuable insights that drive business decisions',
-						pic: 'david', // Add the picture name here
-					},
-					{
-						name: 'Emily Chen',
-						title: 'Director of Cybersecurity',
-						superpower: "Ability to identify and neutralize cyber threats before they cause any damage to the company's systems",
-						pic: 'emily', // Add the picture name here
-					},
-					{
-						name: 'Michael Brown',
-						title: 'Senior Software Engineer',
-						superpower: "Ability to write clean, efficient, and scalable code that powers the company's products and services",
-						pic: 'michael', // Add the picture name here
-					},
-					{
-						name: 'Eric G',
-						title: 'Project Manager',
-						superpower: 'Ability to coordinate multiple teams and ensure projects are delivered on time, within budget, and with high quality',
-						pic: 'eric', // Add the picture name here
-					},
-				],
-			};
-		},
-		mounted() {
-			this.teams.sort(() => Math.random() - 0.5);
-		},
-	};
 </script>
