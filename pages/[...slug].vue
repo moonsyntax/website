@@ -9,6 +9,7 @@
 		title: () => data.value?.title,
 		description: () => data.value?.description,
 		image: () => data.value?.image,
+
 		ogTitle: () => data.value?.title,
 		ogDescription: () => data.value?.description,
 		ogImage: () => data.value?.image,
