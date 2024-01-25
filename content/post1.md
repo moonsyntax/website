@@ -1,6 +1,6 @@
 ---
-title: 'Recovered 2.1 BTC from a Damaged Device'
-description: 'Our client relied on the Samurai wallet on Android, known for its top-notch security. The client’s Android device suffered a complete breakdown, leaving both the display and motherboard unusable. They remembered 12 out of the 13 words of their wallet passphrase, with the elusive 13th word being the “BIP passphrase.”'
+title: 'post 1 title '
+description: 'post 1 discription'
 tags:
           - bitcoin
           - recovery
