@@ -33,14 +33,3 @@ In a surprising twist, Moon Syntax not only recovered the damaged seed but also 
 ## Fees
 
 While our standard fee is 20% (8.4 BTC), we recognised the case’s complexity and negotiated with the client. Initially agreeing on 8.4 BTC, we finalised the deal at 7 BTC, reflecting our commitment to fairness and client satisfaction. Given the substantial amount (over 1.8 million dollars), we mutually agreed that a 20% fee was too high, opting for a more reasonable arrangement. At Moon Syntax, we take client confidentiality seriously. With the client’s approval and a successful cryptocurrency recovery, we’re sharing this story to show our commitment to transparency.
-
-### Wallet Details
-
-BTC Address:
-bc1qll5pmdk4zjzuxcs7mx80sgzumuk32pz7rmxvd7
-
-Message:
-recovered by moonsyntax.com
-
-Signed message:
-H1qnYoRSd+TTKrRUCXSvbizGvF3HlIDpvbgpt6NJ0OFVHraQ3aEEf0VNatFaggPU+YczIFhe+gzxz8VYBh9lpqk=
