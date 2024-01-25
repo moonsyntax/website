@@ -22,3 +22,15 @@
 		</div>
 	</div>
 </template>
+
+<script setup>
+	useSeoMeta({
+		title: 'Moon Syntax',
+		ogTitle: 'Moon Syntax',
+		description: 'The decentralized organization thats shaking up the world of blockchain startups. With a focus on developing, managing, and funding cutting-edge projects, our team of experts delivers unparalleled support and guidance.',
+		ogDescription:
+			'The decentralized organization thats shaking up the world of blockchain startups. With a focus on developing, managing, and funding cutting-edge projects, our team of experts delivers unparalleled support and guidance.',
+		ogImage: 'https://moonsyntax.com/banner.png',
+		twitterImage: 'https://moonsyntax.com/banner.png',
+	});
+</script>

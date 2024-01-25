@@ -53,7 +53,7 @@
 	</div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 	useSeoMeta({
 		title: 'Our Work',
 		ogTitle: 'Our Work',

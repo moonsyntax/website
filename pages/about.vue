@@ -93,7 +93,16 @@
 		</div>
 	</div>
 </template>
+
 <script setup>
+	useSeoMeta({
+		title: 'About Us',
+		ogTitle: 'About Us',
+		description: 'Our team comprises industry experts, each contributing a distinct perspective and skill set. Together, we drive our mission forward— propelling the world through pioneering technology and strategic investments.',
+		ogDescription:
+			'Our team comprises industry experts, each contributing a distinct perspective and skill set. Together, we drive our mission forward— propelling the world through pioneering technology and strategic investments.',
+	});
+
 	import { ref, onMounted } from 'vue';
 
 	const teams = ref([
