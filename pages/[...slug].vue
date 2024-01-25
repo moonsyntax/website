@@ -5,10 +5,6 @@
 
 	const { data } = await useAsyncData('page-data', () => queryContent(route).findOne());
 
-	if (!data.value) {
-		router.replace('/');
-	}
-
 	useSeoMeta({
 		title: () => data.value?.title,
 		description: () => data.value?.description,
