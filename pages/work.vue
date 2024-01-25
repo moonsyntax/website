@@ -22,7 +22,7 @@
 
 		<div class="m-auto my-14">
 			<ContentList v-slot="{ list }">
-				<div class="grid grid-cols-2 lg:grid-cols-2 gap-5 lg:items-center">
+				<div class="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:items-center">
 					<div v-for="article in list" :key="article._path" class="p-2">
 						<a
 							class="group block transform rounded-lg bg-white p-6 transition duration-500 hover:-translate-y-2"
