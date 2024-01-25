@@ -5,10 +5,12 @@
 		</div>
 
 		<div class="w-full lg:w-1/2">
-			<h1 class="my-6 text-2xl lg:text-6xl font-bold text-gray-800">MOON { SYNTAX }</h1>
-			<p class="my-6 text-lg lg:text-2xl tracking-wide">
-				The decentralized organization that's shaking up the world of blockchain startups. With a focus on developing,
-				managing, and funding cutting-edge projects, our team of experts delivers unparalleled support and guidance.
+			<h1 class="my-8 text-2xl lg:text-6xl font-bold text-gray-800">MOON { SYNTAX }</h1>
+			<p class="my-6 text-lg lg:text-xl tracking-wide">
+				We stand as a beacon of innovation, harnessing the collective expertise of industry leaders to empower the
+				digital age of finance technology. With a unique blend of mentorship, funding, coding prowess, and project
+				development, we navigate the forefront of change. Collaborating with industry giants, we've crafted solutions
+				that reverberate with impact, solidifying our position as architects of transformative progress.
 			</p>
 
 			<div class="leading-6 uppercase font-semibold">
