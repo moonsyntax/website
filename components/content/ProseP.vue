@@ -1,5 +1,5 @@
 <template>
-	<p class="mt-6 text-xl lg:text-2xl">
+	<p class="mt-8 text-xl">
 		<slot />
 	</p>
 </template>
