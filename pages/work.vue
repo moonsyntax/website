@@ -22,13 +22,13 @@
 
 		<div class="m-auto my-14">
 			<ContentList v-slot="{ list }">
-				<div class="flex flex-col sm:flex-row gap-10 lg:items-center">
-					<div v-for="article in list" :key="article._path" class="w-full lg:w-1/2 p-5">
+				<div class="grid grid-cols-2 gap-10 lg:items-center">
+					<div v-for="article in list" :key="article._path" class="p-2">
 						<a
 							class="group block transform rounded-lg bg-white p-6 transition duration-500 hover:-translate-y-2"
 							:href="article._path"
 						>
-							<img class="mb-6 w-full rounded-lg" :src="article.image" />
+							<img class="mb-6 w-auto h-auto rounded-lg" :src="article.image" />
 							<h3 class="mb-6 text-3xl font-semibold">
 								{{ article.title }}
 							</h3>

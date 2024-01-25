@@ -1,6 +1,5 @@
 <template>
 	<div :style="{ backgroundImage: `url(${wave1})`, backgroundSize: 'cover' }" class="min-h-screen">
-		<div class="bg"></div>
 		<div class="m-auto p-5 max-w-7xl">
 			<div class="font-bold uppercase text-gray-800">
 				<div class="m-auto p-3">
@@ -24,25 +23,3 @@
 
 	import wave1 from '/blob-haikei.svg';
 </script>
-
-<style>
-	.bg {
-		animation: slide 12s ease-in-out infinite alternate;
-		background-image: linear-gradient(-60deg, #fef08a 50%, rgb(255, 255, 255) 50%);
-		bottom: 0;
-		left: -50%;
-		position: fixed;
-		right: -50%;
-		top: 0;
-		z-index: -1;
-	}
-
-	@keyframes slide {
-		0% {
-			transform: translateX(-25%);
-		}
-		100% {
-			transform: translateX(25%);
-		}
-	}
-</style>
