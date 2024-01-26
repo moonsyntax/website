@@ -27,15 +27,8 @@
 						<div
 							class="bg-white flex flex-col col-span-1 hover:col-span-2 items-center justify-center shadow-xl py-10 px-10 transform duration-500 hover:scale-110 border-2 rounded-lg hover:border-dashed border-double border-black"
 						>
-							<div class="relative p-5">
-								<div
-									class="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full"
-								></div>
-								<img
-									class="relative z-10 w-full rounded-full"
-									v-bind:src="'/team/' + team.pic + '.png'"
-								/>
-							</div>
+							<img class="w-full" v-bind:src="'/team/' + team.pic + '.png'" />
+
 							<div class="mt-3 py-5 text-center">
 								<h3 class="font-medium text-xl">{{ team.name }}</h3>
 								<p>{ {{ team.title }} }</p>
@@ -127,7 +120,7 @@
 		{
 			name: 'Emily Chen',
 			title: 'Director of Cybersecurity',
-			superpower: "Ability to identify and neutralize cyber threats before they cause any damage to the company's systems",
+			superpower: 'Ability to identify and neutralize cyber threats before they cause any damage',
 			pic: 'emily', // Add the picture name here
 		},
 		{
@@ -139,8 +132,14 @@
 		{
 			name: 'Eric G',
 			title: 'Project Manager',
-			superpower: 'Ability to coordinate multiple teams and ensure projects are delivered on time, within budget, and with high quality',
+			superpower: 'Ability to coordinate multiple teams and ensure projects are delivered high quality',
 			pic: 'eric', // Add the picture name here
+		},
+		{
+			name: 'Aman S',
+			title: 'Advisor & Investor',
+			superpower: 'Ability to provide strategic guidance and mentorship to the company',
+			pic: 'michael', // Add the picture name here
 		},
 	]);
 
