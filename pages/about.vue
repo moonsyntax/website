@@ -135,12 +135,6 @@
 			superpower: 'Ability to coordinate multiple teams and ensure projects are delivered high quality',
 			pic: 'eric', // Add the picture name here
 		},
-		{
-			name: 'Aman S',
-			title: 'Advisor & Investor',
-			superpower: 'Ability to provide strategic guidance and mentorship to the company',
-			pic: 'michael', // Add the picture name here
-		},
 	]);
 
 	onMounted(() => {
