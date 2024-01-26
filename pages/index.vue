@@ -9,8 +9,7 @@
 			<p class="my-6 text-lg lg:text-xl tracking-wide">
 				We stand as a beacon of innovation, harnessing the collective expertise of industry leaders to empower the
 				digital age of finance technology. With a unique blend of mentorship, funding, coding prowess, and project
-				development, we navigate the forefront of change. Collaborating with industry giants, we've crafted solutions
-				that reverberate with impact, solidifying our position as architects of transformative progress.
+				development, we navigate the forefront of change.
 			</p>
 
 			<div class="leading-6 uppercase font-semibold">
