@@ -12,4 +12,11 @@ export default defineNuxtConfig({
       isCustomElement: (tag) => ['lottie-player'].includes(tag),
     },
   },
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: "en",
+      },
+    },
+  }
 });
