@@ -35,6 +35,44 @@
 	<div>
 		<div class="my-20 py-10 rounded-2xl">
 			<ContentRenderer :value="data">
+				<template #empty>
+					<div class="m-auto my-20">
+						<ContentList v-slot="{ list }">
+							<div class="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:items-center">
+								<div v-for="article in list" :key="article._path" class="p-2">
+									<a
+										class="group block transform rounded-lg bg-white p-6 transition duration-500 hover:-translate-y-2"
+										:href="article._path"
+									>
+										<img
+											class="mb-6 w-auto h-auto rounded-lg"
+											:src="article.image"
+										/>
+										<h3 class="mb-6 text-3xl font-semibold">
+											{{ article.title }}
+										</h3>
+
+										<p class="mb-6">
+											{{ article.description.slice(0, 100) }}
+										</p>
+										<p class="font-medium uppercase">
+											<span
+												v-for="(
+													tag, index
+												) in article.tags"
+												:key="index"
+												class="px-2 py-1 m-1 bg-yellow-200 rounded"
+											>
+												{{ tag }}
+											</span>
+										</p>
+									</a>
+								</div>
+							</div>
+						</ContentList>
+					</div>
+				</template>
+
 				<div class="max-w-3xl mx-auto mb-16 text-center">
 					<div class="font-medium uppercase">
 						<span
