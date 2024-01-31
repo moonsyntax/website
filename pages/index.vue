@@ -5,15 +5,15 @@
 
 			<div class="w-full lg:w-1/2 p-4">
 				<div class="flex flex-col items-stretch sm:items-start justify-center h-full">
-					<h2 class="text-3xl lg:text-5xl font-bold font-heading mb-6 max-w-sm">MOON { SYNTAX }</h2>
-					<p class="text-gray-600 text-lg lg:text-2xl mb-6 max-w-lg">
+					<h2 class="text-3xl lg:text-5xl font-bold font-heading my-5 max-w-sm">MOON { SYNTAX }</h2>
+					<p class="text-gray-600 text-lg lg:text-2xl my-5 max-w-lg">
 						We stand as a beacon of innovation, harnessing the collective expertise of industry
 						leaders to empower the digital age of finance technology. With a unique blend of
 						mentorship, funding, coding prowess, and project development, we navigate the forefront of
 						change.
 					</p>
 
-					<div class="leading-6 uppercase font-semibold my-10">
+					<div class="leading-6 uppercase font-semibold my-5">
 						<div class="relative inline-block mr-3">
 							<butx textinput="Twitter" link="https://twitter.com/moonsyntax" />
 						</div>
