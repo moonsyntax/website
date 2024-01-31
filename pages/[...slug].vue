@@ -36,7 +36,7 @@
 		<div class="my-20 py-10 rounded-2xl">
 			<ContentRenderer :value="data">
 				<template #empty>
-					<div class="m-auto my-20">
+					<div class="m-auto my-18">
 						<ContentList v-slot="{ list }">
 							<div class="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:items-center">
 								<div v-for="article in list" :key="article._path" class="p-2">
@@ -53,7 +53,7 @@
 										</h3>
 
 										<p class="mb-6">
-											{{ article.description.slice(0, 100) }}
+											{{ article.description.slice(0, 150) }}
 										</p>
 										<p class="font-medium uppercase">
 											<span
@@ -99,6 +99,8 @@
 				<div class="my-20 bg-white max-w-4xl m-auto p-8 rounded-2xl">
 					<ContentRendererMarkdown :value="data" />
 				</div>
+
+				<div class="my-10"></div>
 			</ContentRenderer>
 		</div>
 	</div>
