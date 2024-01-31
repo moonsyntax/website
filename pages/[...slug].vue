@@ -1,22 +1,20 @@
 <script setup lang="ts">
-	const router = useRouter();
+	const route = useRoute();
 
-	const route = router.currentRoute.value.params.slug.join('/');
-
-	const { data } = await useAsyncData('page-data', () => queryContent(route).findOne());
+	const { data: post } = await useAsyncData(route.path, () => queryContent(route.path).findOne());
 
 	useSeoMeta({
-		title: () => data.value?.title,
-		description: () => data.value?.description,
-		image: () => data.value?.image,
+		title: () => post.value?.title,
+		description: () => post.value?.description,
+		image: () => post.value?.image,
 
-		ogTitle: () => data.value?.title,
-		ogDescription: () => data.value?.description,
-		ogImage: () => data.value?.image,
+		ogTitle: () => post.value?.title,
+		ogDescription: () => post.value?.description,
+		ogImage: () => post.value?.image,
 
-		twitterTitle: () => data.value?.title,
-		twitterDescription: () => data.value?.description,
-		twitterImage: () => data.value?.image,
+		twitterTitle: () => post.value?.title,
+		twitterDescription: () => post.value?.description,
+		twitterImage: () => post.value?.image,
 
 		ogUrl: () => `https://moonsyntax.com/${route}`,
 		twitterUrl: () => `https://moonsyntax.com/${route}`,
@@ -34,7 +32,7 @@
 <template>
 	<div>
 		<div class="my-20 py-10 rounded-2xl">
-			<ContentRenderer :value="data">
+			<ContentRenderer :value="post">
 				<template #empty>
 					<div class="m-auto my-18">
 						<ContentList v-slot="{ list }">
@@ -48,7 +46,7 @@
 											class="mb-6 w-auto h-auto rounded-lg"
 											:src="article.image"
 										/>
-										<h3 class="mb-6 text-3xl font-semibold">
+										<h3 class="mb-6 text-2xl font-semibold">
 											{{ article.title }}
 										</h3>
 
@@ -76,28 +74,28 @@
 				<div class="max-w-3xl mx-auto mb-16 text-center">
 					<div class="font-medium uppercase">
 						<span
-							v-for="(tag, index) in data.tags"
+							v-for="(tag, index) in post.tags"
 							:key="index"
-							class="px-2 py-1 m-1 bg-yellow-200 rounded"
+							class="px-2 py-2 m-1 bg-yellow-200 rounded-2xl"
 						>
 							{{ tag }}
 						</span>
 					</div>
 
 					<div class="mt-2 mb-6 text-4xl lg:text-5xl font-bold font-heading">
-						{{ data.title }}
+						{{ post.title }}
 					</div>
 				</div>
 
 				<img
-					:src="data.image"
+					:src="post.image"
 					class="m-auto w-full h-auto hover:scale-110 transition delay-150 duration-300 ease-in-out"
 				/>
 
 				<div class="my-10"></div>
 
 				<div class="my-20 bg-white max-w-4xl m-auto p-8 rounded-2xl">
-					<ContentRendererMarkdown :value="data" />
+					<ContentRendererMarkdown :value="post" />
 				</div>
 
 				<div class="my-10"></div>
