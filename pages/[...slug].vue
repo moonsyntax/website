@@ -1,4 +1,4 @@
-<script setup>
+<script>
 	const router = useRouter();
 
 	const route = router.currentRoute.value.params.slug.join('/');

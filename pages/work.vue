@@ -20,7 +20,7 @@
 			</div>
 		</div>
 
-		<div class="m-auto my-14">
+		<div class="m-auto p-4 my-20">
 			<ContentList v-slot="{ list }">
 				<div class="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:items-center">
 					<div v-for="article in list" :key="article._path" class="p-2">
@@ -34,7 +34,7 @@
 							</h3>
 
 							<p class="mb-6">
-								{{ article.description.slice(0, 100) }}
+								{{ article.description.slice(0, 80) }}
 							</p>
 							<p class="font-medium uppercase">
 								<span
@@ -53,7 +53,7 @@
 	</div>
 </template>
 
-<script setup>
+<script>
 	useSeoMeta({
 		title: 'Our Work',
 		ogTitle: 'Our Work',
