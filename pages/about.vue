@@ -87,7 +87,7 @@
 	</div>
 </template>
 
-<script>
+<script setup lang="ts">
 	useSeoMeta({
 		title: 'About Us',
 		ogTitle: 'About Us',

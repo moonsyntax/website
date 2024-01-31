@@ -38,7 +38,7 @@
 	</div>
 </template>
 
-<script>
+<script setup lang="ts">
 	useSeoMeta({
 		title: 'Contact Us',
 		ogTitle: 'Contact Us',

@@ -24,7 +24,7 @@
 	</div>
 </template>
 
-<script>
+<script setup lang="ts">
 	useSeoMeta({
 		title: 'Moon Syntax',
 		ogTitle: 'Moon Syntax',

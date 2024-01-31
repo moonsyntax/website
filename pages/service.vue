@@ -255,7 +255,7 @@
 	</div>
 </template>
 
-<script>
+<script setup lang="ts">
 	useSeoMeta({
 		title: 'Our Services',
 		ogTitle: 'Our Services',
