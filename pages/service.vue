@@ -46,6 +46,34 @@
 			</div>
 		</div>
 
+		<div class="py-5 lg:py-20">
+			<section class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
+				<div v-for="service in services" class="col-span-1">
+					<a href="" class="group relative block h-96">
+						<span class="absolute inset-0 border-2 border-dashed border-black"></span>
+						<div
+							class="relative flex h-full transform items-end border-2 border-black bg-white transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2"
+						>
+							<div
+								class="px-8 pb-8 transition-opacity group-hover:absolute group-hover:opacity-0"
+							>
+								<h2 class="mt-4 text-2xl font-medium">{{ service.title }}</h2>
+							</div>
+							<div
+								class="absolute p-8 opacity-0 transition-opacity group-hover:relative group-hover:opacity-100"
+							>
+								<h3 class="mt-4 text-2xl font-medium">{{ service.title }}</h3>
+								<p class="mt-4">
+									{{ service.description }}
+								</p>
+								<p class="mt-8 font-bold">Email Us</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</section>
+		</div>
+
 		<div class="bg-yellow-200 rounded-2xl">
 			<div class="p-5 my-20 m-auto">
 				<div class="flex flex-wrap">
@@ -269,4 +297,31 @@
 		description: "Moon Syntax offers a diverse range of specialized services to bolster your blockchain project's success.",
 		ogDescription: "Moon Syntax offers a diverse range of specialized services to bolster your blockchain project's success.",
 	});
+
+	const services = [
+		{
+			title: 'Web 3.0 Development',
+			description: 'In a nutshell, what makes Web 3.0 so different from Web 2.0 is the absence of a centralized server.',
+		},
+		{
+			title: 'Project Audit',
+			description: 'A project management audit is a formal review that seeks to evaluate a given project based on specific criteria.',
+		},
+		{
+			title: 'Hacking / RE',
+			description: 'Hacking refers to activities that seek to compromise digital devices, such as computers, smartphones, tablets, and even entire networks.',
+		},
+		{
+			title: 'Smart Contract Audit',
+			description: 'A smart contract audit is a security review conducted by a team of blockchain experts to identify potential vulnerabilities in a smart contract.',
+		},
+		{
+			title: 'Blockchain Development',
+			description: 'Blockchain development is the process of creating a blockchain network. It involves designing, coding, and testing a blockchain network.',
+		},
+		{
+			title: 'Smart Contract Development',
+			description: 'A smart contract is a self-executing contract with the terms of the agreement between buyer and seller being directly written into lines of code.',
+		},
+	];
 </script>
