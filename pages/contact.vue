@@ -5,7 +5,7 @@
 				<anim class="mx-auto" loc="/anim/contact.json" />
 
 				<p class="text-xl">
-					We'll help you regarding any queries you have. We are always open to new ideas and collaborations.
+					Well help you regarding any queries you have. We are always open to new ideas and collaborations.
 				</p>
 			</div>
 
