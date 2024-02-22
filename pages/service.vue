@@ -4,7 +4,7 @@
 			<div class="flex flex-wrap lg:items-center -m-8">
 				<div class="w-full md:w-1/2 p-8">
 					<div class="md:max-w-xl">
-						<h2 class="font-heading mb-6 text-6xl tracking-tighter">
+						<h2 class="font-heading mb-6 text-6xl tracking-tighter uppercase">
 							Transforming Blockchain Innovation
 						</h2>
 						<p class="mb-20 tracking-tight">

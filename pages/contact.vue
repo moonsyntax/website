@@ -1,38 +1,23 @@
 <template>
-	<div>
-		<div class="p-4 m-auto my-10">
-			<div class="max-w-2xl mx-auto my-20 text-center">
-				<h1 class="text-6xl sm:text-7xl font-heading font-semibold mb-10">Stay Connected</h1>
-			</div>
-			<div class="max-w-6xl m-auto px-20 py-10">
-				<div class="flex flex-wrap justify-between items-center">
-					<div class="w-full lg:w-2/4">
-						<anim class="mx-auto" loc="/anim/contact.json" />
-					</div>
+	<div class="p-5 my-20 m-auto">
+		<div class="flex flex-wrap justify-between items-center">
+			<div class="w-full lg:w-2/4">
+				<anim class="mx-auto" loc="/anim/contact.json" />
 
-					<div class="w-full lg:w-2/4">
-						<div class="max-w-xs mx-auto mb-10">
-							<span class="block mb-6 text-xl lg:text-5xl font-heading text-gray-700"
-								>Team</span
-							>
-							<h4 class="text-xl lg:text-3xl font-heading font-semibold">
-								info@moonsyntax.com
-							</h4>
-						</div>
-						<div class="max-w-xs mx-auto">
-							<span class="block mb-6 text-xl lg:text-5xl font-heading text-gray-700"
-								>Manager</span
-							>
-							<h4 class="text-xl lg:text-3xl font-heading font-semibold">x@moonsyntax.com</h4>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="max-w-2xl mx-auto my-20 text-center">
-				<p class="text-2xl mb-20">
+				<p class="text-xl">
 					We'll help you regarding any queries you have. We are always open to new ideas and collaborations.
 				</p>
+			</div>
+
+			<div class="w-full lg:w-2/4">
+				<div class="max-w-xs mx-auto mb-10">
+					<span class="block mb-6 text-xl lg:text-5xl font-heading text-gray-700">TEAM</span>
+					<h4 class="text-xl lg:text-3xl font-heading font-semibold">info@moonsyntax.com</h4>
+				</div>
+				<div class="max-w-xs mx-auto">
+					<span class="block mb-6 text-xl lg:text-5xl font-heading text-gray-700">MANAGER</span>
+					<h4 class="text-xl lg:text-3xl font-heading font-semibold">x@moonsyntax.com</h4>
+				</div>
 			</div>
 		</div>
 	</div>
