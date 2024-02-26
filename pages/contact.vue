@@ -11,11 +11,11 @@
 
 			<div class="w-full lg:w-2/4">
 				<div class="max-w-xs mx-auto mb-10">
-					<span class="block mb-6 text-xl lg:text-5xl font-heading text-gray-700">TEAM</span>
+					<span class="block mb-6 text-xl lg:text-5xl font-heading ">TEAM</span>
 					<h4 class="text-xl lg:text-3xl font-heading font-semibold">info@moonsyntax.com</h4>
 				</div>
 				<div class="max-w-xs mx-auto">
-					<span class="block mb-6 text-xl lg:text-5xl font-heading text-gray-700">MANAGER</span>
+					<span class="block mb-6 text-xl lg:text-5xl font-heading ">MANAGER</span>
 					<h4 class="text-xl lg:text-3xl font-heading font-semibold">x@moonsyntax.com</h4>
 				</div>
 			</div>
@@ -31,3 +31,4 @@
 		ogDescription: 'Contact us for any queries you have. We are always open to new ideas and collaborations.',
 	});
 </script>
+	

@@ -1,11 +1,11 @@
 <template>
 	<section class="py-5 lg:py-20">
-		<div class="flex flex-wrap">
+		<div class="flex flex-wrap ">
 			<div class="w-full lg:w-1/2 p-4"><Anim loc="/anim/home.json" /></div>
 
 			<div class="w-full lg:w-1/2 p-4">
 				<div class="flex flex-col items-stretch sm:items-start justify-center h-full">
-					<div class="text-2xl lg:text-5xl my-3 tracking-widest font-bold">MOON SYNTAX</div>
+					<div class="text-2xl lg:text-5xl my-3 tracking-widest font-bold text-yellow-300">MOON {SYNTAX}</div>
 					<div class="text-lg lg:text-xl my-3 font-mono">
 						We stand as a beacon of innovation, harnessing the collective expertise of industry
 						leaders to empower the digital age of finance technology. With a unique blend of

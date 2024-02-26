@@ -4,10 +4,10 @@
 			<div class="flex flex-wrap items-center -m-6">
 				<div class="w-full md:w-1/2 p-6">
 					<div class="max-w-lg">
-						<h2 class="mb-7 font-heading font-semibold text-3xl sm:text-5xl text-gray-900 uppercase">
+						<h2 class="mb-7 font-heading font-semibold text-3xl sm:text-5xl  uppercase">
 							Innovating with Moonsyntax
 						</h2>
-						<p class="text-xl text-gray-900">
+						<p class="text-xl ">
 							Our team comprises industry experts, each contributing a distinct perspective
 							and skill set. Together, we drive our mission forward— propelling the world
 							through pioneering technology and strategic investments.
@@ -20,26 +20,23 @@
 			</div>
 		</div>
 
-		<div class="bg-yellow-200 rounded-2xl">
-			<div class="p-4 m-auto my-20">
-				<section class="grid w-full grid-cols-1 gap-10 md:grid-cols-3">
-					<div v-for="(team, index) of teams" :key="index">
-						<div
-							class="bg-white flex flex-col col-span-1 hover:col-span-2 items-center justify-center shadow-xl py-10 px-10 transform duration-500 hover:scale-110 border-2 rounded-lg hover:border-dashed border-double border-black"
-						>
-							<img class="w-full" v-bind:src="'/team/' + team.pic + '.png'" />
+		<div class="p-4 m-auto my-20">
+			<section class="grid w-full grid-cols-1 gap-10 md:grid-cols-3">
+				<div v-for="(team, index) of teams" :key="index">
+					<div
+						class="flex flex-col col-span-1 hover:col-span-2 items-center justify-center py-10 px-10 transform duration-500 hover:scale-110 rounded-2xl ">
+						<img class="w-full" v-bind:src="'/team/' + team.pic + '.png'" />
 
-							<div class="mt-3 py-5 text-center">
-								<h3 class="font-medium text-xl">{{ team.name }}</h3>
-								<p>{ {{ team.title }} }</p>
-								<p class="transition-opacity duration-300 mt-2 text-sm">
-									{{ team.superpower }}
-								</p>
-							</div>
+						<div class="mt-3 py-5 text-center">
+							<h3 class="font-medium text-xl">{{ team.name }}</h3>
+							<p>{ {{ team.title }} }</p>
+							<p class="transition-opacity duration-300 mt-2 text-sm">
+								{{ team.superpower }}
+							</p>
 						</div>
 					</div>
-				</section>
-			</div>
+				</div>
+			</section>
 		</div>
 
 		<div class="p-4 m-auto my-20">
@@ -51,10 +48,7 @@
 					<div class="md:max-w-md">
 						<div class="flex flex-wrap -m-6">
 							<div class="w-auto p-6">
-								<h3
-									class="mb-4 text-3xl font-semibold tracking-tighter"
-									style="letter-spacing: -0.5px"
-								>
+								<h3 class="mb-4 text-3xl font-semibold tracking-tighter" style="letter-spacing: -0.5px">
 									Revolutionary Work Culture
 								</h3>
 								<p class="tracking-tight">
@@ -65,10 +59,7 @@
 								</p>
 							</div>
 							<div class="w-auto p-6">
-								<h3
-									class="mb-4 text-3xl font-semibold tracking-tighter"
-									style="letter-spacing: -0.5px"
-								>
+								<h3 class="mb-4 text-3xl font-semibold tracking-tighter" style="letter-spacing: -0.5px">
 									Perks That Matter
 								</h3>
 								<p class="tracking-tight">
@@ -88,56 +79,56 @@
 </template>
 
 <script setup lang="ts">
-	useSeoMeta({
-		title: 'About Us',
-		ogTitle: 'About Us',
-		description: 'Our team comprises industry experts, each contributing a distinct perspective and skill set. Together, we drive our mission forward— propelling the world through pioneering technology and strategic investments.',
-		ogDescription:
-			'Our team comprises industry experts, each contributing a distinct perspective and skill set. Together, we drive our mission forward— propelling the world through pioneering technology and strategic investments.',
-	});
+useSeoMeta({
+	title: 'About Us',
+	ogTitle: 'About Us',
+	description: 'Our team comprises industry experts, each contributing a distinct perspective and skill set. Together, we drive our mission forward— propelling the world through pioneering technology and strategic investments.',
+	ogDescription:
+		'Our team comprises industry experts, each contributing a distinct perspective and skill set. Together, we drive our mission forward— propelling the world through pioneering technology and strategic investments.',
+});
 
-	import { ref, onMounted } from 'vue';
+import { ref, onMounted } from 'vue';
 
-	const teams = ref([
-		{
-			name: 'Alex Johnson',
-			title: 'Chief Technology Officer',
-			superpower: 'Ability to code at lightning speed and solve complex technical problems effortlessly',
-			pic: 'alex', // Add the picture name here
-		},
-		{
-			name: 'Sarah Lee',
-			title: 'Head of User Experience Design',
-			superpower: 'Ability to create intuitive and visually stunning user interfaces that keep users engaged',
-			pic: 'sarah', // Add the picture name here
-		},
-		{
-			name: 'David Kim',
-			title: 'Lead Data Scientist',
-			superpower: 'Ability to analyze large datasets and extract valuable insights that drive business decisions',
-			pic: 'david', // Add the picture name here
-		},
-		{
-			name: 'Emily Chen',
-			title: 'Director of Cybersecurity',
-			superpower: 'Ability to identify and neutralize cyber threats before they cause any damage',
-			pic: 'emily', // Add the picture name here
-		},
-		{
-			name: 'Michael Brown',
-			title: 'Senior Software Engineer',
-			superpower: "Ability to write clean, efficient, and scalable code that powers the company's products and services",
-			pic: 'michael', // Add the picture name here
-		},
-		{
-			name: 'Eric G',
-			title: 'Project Manager',
-			superpower: 'Ability to coordinate multiple teams and ensure projects are delivered high quality',
-			pic: 'eric', // Add the picture name here
-		},
-	]);
+const teams = ref([
+	{
+		name: 'Alex Johnson',
+		title: 'Chief Technology Officer',
+		superpower: 'Ability to code at lightning speed and solve complex technical problems effortlessly',
+		pic: 'alex', // Add the picture name here
+	},
+	{
+		name: 'Sarah Lee',
+		title: 'Head of User Experience Design',
+		superpower: 'Ability to create intuitive and visually stunning user interfaces that keep users engaged',
+		pic: 'sarah', // Add the picture name here
+	},
+	{
+		name: 'David Kim',
+		title: 'Lead Data Scientist',
+		superpower: 'Ability to analyze large datasets and extract valuable insights that drive business decisions',
+		pic: 'david', // Add the picture name here
+	},
+	{
+		name: 'Emily Chen',
+		title: 'Director of Cybersecurity',
+		superpower: 'Ability to identify and neutralize cyber threats before they cause any damage',
+		pic: 'emily', // Add the picture name here
+	},
+	{
+		name: 'Michael Brown',
+		title: 'Senior Software Engineer',
+		superpower: "Ability to write clean, efficient, and scalable code that powers the company's products and services",
+		pic: 'michael', // Add the picture name here
+	},
+	{
+		name: 'Eric G',
+		title: 'Project Manager',
+		superpower: 'Ability to coordinate multiple teams and ensure projects are delivered high quality',
+		pic: 'eric', // Add the picture name here
+	},
+]);
 
-	onMounted(() => {
-		teams.value.sort(() => Math.random() - 0.5);
-	});
+onMounted(() => {
+	teams.value.sort(() => Math.random() - 0.5);
+});
 </script>

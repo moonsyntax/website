@@ -1,32 +1,32 @@
 <script setup lang="ts">
-	const route = useRoute();
+const route = useRoute();
 
-	const { data: post } = await useAsyncData(route.path, () => queryContent(route.path).findOne());
+const { data: post } = await useAsyncData(route.path, () => queryContent(route.path).findOne());
 
-	useSeoMeta({
-		title: () => post.value?.title,
-		description: () => post.value?.description,
-		image: () => post.value?.image,
+useSeoMeta({
+	title: () => post.value?.title,
+	description: () => post.value?.description,
+	image: () => post.value?.image,
 
-		ogTitle: () => post.value?.title,
-		ogDescription: () => post.value?.description,
-		ogImage: () => post.value?.image,
+	ogTitle: () => post.value?.title,
+	ogDescription: () => post.value?.description,
+	ogImage: () => post.value?.image,
 
-		twitterTitle: () => post.value?.title,
-		twitterDescription: () => post.value?.description,
-		twitterImage: () => post.value?.image,
+	twitterTitle: () => post.value?.title,
+	twitterDescription: () => post.value?.description,
+	twitterImage: () => post.value?.image,
 
-		ogUrl: () => `https://moonsyntax.com/${route}`,
-		twitterUrl: () => `https://moonsyntax.com/${route}`,
+	ogUrl: () => `https://moonsyntax.com/${route}`,
+	twitterUrl: () => `https://moonsyntax.com/${route}`,
 
-		ogType: () => 'article',
-		twitterCard: () => 'summary_large_image',
+	ogType: () => 'article',
+	twitterCard: () => 'summary_large_image',
 
-		ogSiteName: () => 'Moon Syntax',
-		twitterSite: () => '@moonsyntax',
+	ogSiteName: () => 'Moon Syntax',
+	twitterSite: () => '@moonsyntax',
 
-		ogLocale: () => 'en_US',
-	});
+	ogLocale: () => 'en_US',
+});
 </script>
 
 <template>
@@ -38,15 +38,10 @@
 						<ContentList v-slot="{ list }">
 							<div class="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:items-center">
 								<div v-for="article in list" :key="article._path" class="p-2">
-									<a
-										class="group block transform rounded-lg bg-white p-6 transition duration-500 hover:-translate-y-2"
-										:href="article._path"
-									>
-										<img
-											class="mb-6 w-auto h-auto rounded-lg"
-											:src="article.image"
-										/>
-										<h3 class="mb-6 text-2xl font-semibold">
+									<a class="group block transform rounded-lg  p-6 transition duration-500 hover:-translate-y-2"
+										:href="article._path">
+										<img class="mb-6 w-auto h-auto rounded-lg" :src="article.image" />
+										<h3 class="mb-6 text-3xl font-semibold">
 											{{ article.title }}
 										</h3>
 
@@ -54,30 +49,23 @@
 											{{ article.description.slice(0, 150) }}
 										</p>
 										<p class="font-medium uppercase">
-											<span
-												v-for="(
-													tag, index
-												) in article.tags"
-												:key="index"
-												class="px-2 py-1 m-1 bg-yellow-200 rounded"
-											>
+											<span v-for="(tag, index) in article.tags" :key="index"
+												class="px-2 py-1 m-1 bg-yellow-200 rounded text-gray-700">
 												{{ tag }}
 											</span>
 										</p>
 									</a>
 								</div>
 							</div>
+
+
 						</ContentList>
 					</div>
 				</template>
 
 				<div class="max-w-3xl mx-auto mb-16 text-center">
 					<div class="font-medium uppercase">
-						<span
-							v-for="(tag, index) in post.tags"
-							:key="index"
-							class="px-2 py-2 m-1 bg-yellow-200 rounded-2xl"
-						>
+						<span v-for="(tag, index) in post.tags" :key="index" class="px-2 py-2 m-1 text-yellow-500">
 							{{ tag }}
 						</span>
 					</div>
@@ -87,14 +75,12 @@
 					</div>
 				</div>
 
-				<img
-					:src="post.image"
-					class="m-auto w-full h-auto hover:scale-110 transition delay-150 duration-300 ease-in-out"
-				/>
+				<img :src="post.image"
+					class="m-auto w-full h-auto hover:scale-110 transition delay-150 duration-300 ease-in-out" />
 
 				<div class="my-10"></div>
 
-				<div class="my-20 bg-white max-w-4xl m-auto p-8 rounded-2xl">
+				<div class="my-20  max-w-4xl m-auto p-8 rounded-2xl">
 					<ContentRendererMarkdown :value="post" />
 				</div>
 
