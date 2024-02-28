@@ -94,37 +94,37 @@ const teams = ref([
 		name: 'Alex Johnson',
 		title: 'Chief Technology Officer',
 		superpower: 'Ability to code at lightning speed and solve complex technical problems effortlessly',
-		pic: 'alex', // Add the picture name here
+		pic: 'alex',
 	},
 	{
 		name: 'Sarah Lee',
 		title: 'Head of User Experience Design',
 		superpower: 'Ability to create intuitive and visually stunning user interfaces that keep users engaged',
-		pic: 'sarah', // Add the picture name here
+		pic: 'sarah', 
 	},
 	{
 		name: 'David Kim',
 		title: 'Lead Data Scientist',
 		superpower: 'Ability to analyze large datasets and extract valuable insights that drive business decisions',
-		pic: 'david', // Add the picture name here
+		pic: 'david', 
 	},
 	{
 		name: 'Emily Chen',
 		title: 'Director of Cybersecurity',
 		superpower: 'Ability to identify and neutralize cyber threats before they cause any damage',
-		pic: 'emily', // Add the picture name here
+		pic: 'emily',
 	},
 	{
 		name: 'Michael Brown',
 		title: 'Senior Software Engineer',
 		superpower: "Ability to write clean, efficient, and scalable code that powers the company's products and services",
-		pic: 'michael', // Add the picture name here
+		pic: 'michael', 
 	},
 	{
 		name: 'Eric G',
 		title: 'Project Manager',
 		superpower: 'Ability to coordinate multiple teams and ensure projects are delivered high quality',
-		pic: 'eric', // Add the picture name here
+		pic: 'eric', 
 	},
 ]);
 
