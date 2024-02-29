@@ -5,8 +5,8 @@
 
 			<div class="w-full lg:w-1/2 p-4">
 				<div class="flex flex-col items-stretch sm:items-start justify-center h-full">
-					<div class="text-2xl lg:text-5xl my-3 tracking-widest font-bold text-yellow-300">MOON {SYNTAX}</div>
-					<div class="text-lg lg:text-xl my-3 font-mono">
+					<div class="text-2xl lg:text-4xl my-3 tracking-widest font-bold text-yellow-300">MOON {SYNTAX}</div>
+					<div class="text-lg lg:text-xl my-3 font-mono tracking-wide">
 						We stand as a beacon of innovation, harnessing the collective expertise of industry
 						leaders to empower the digital age of finance technology. With a unique blend of
 						mentorship, funding, coding prowess, and project development, we navigate the forefront of
@@ -18,7 +18,7 @@
 							<butx textinput="Twitter" link="https://twitter.com/moonsyntax" />
 						</div>
 						<div class="relative inline-block mr-3">
-							<butx textinput="Blog" link="https://medium.com/moonsyntax" />
+							<butx textinput="Medium" link="https://medium.com/moonsyntax" />
 						</div>
 					</div>
 				</div>
