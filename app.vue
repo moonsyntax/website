@@ -7,7 +7,6 @@
         >
         <NuxtLink to="/service" class="navlinks">Services</NuxtLink>
         <NuxtLink to="/work" class="navlinks">Work</NuxtLink>
-        <NuxtLink to="/about" class="navlinks">About</NuxtLink>
         <NuxtLink to="/contact" class="navlinks">CONTACT</NuxtLink>
       </div>
     </div>
