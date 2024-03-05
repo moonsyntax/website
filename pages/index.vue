@@ -27,6 +27,9 @@
             <div class="relative inline-block mr-3">
               <butx textinput="Medium" link="https://medium.com/moonsyntax" />
             </div>
+            <div class="relative inline-block mr-3">
+              <butx textinput="Github" link="https://github.com/moonsyntax" />
+            </div>
           </div>
         </div>
       </div>

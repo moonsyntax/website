@@ -20,7 +20,7 @@
 			</div>
 		</div>
 
-		<div class="p-4 m-auto my-20">
+		<div class="m-auto">
 			<ContentList v-slot="{ list }">
 				<div class="grid grid-cols-1 gap-5 lg:grid-cols-2 lg:items-center">
 					<div v-for="article in list" :key="article._path" class="p-2">
