@@ -5,9 +5,8 @@
     >
       EMAIL US
     </h2>
-    <p class="max-w-3xl m-auto mb-8 text-xl"> Well help you regarding any queries you have. We are always open to new ideas and collaborations. </p>
     <p
-      class="max-w-4xl pb-8 mx-auto text-lg leading-6 md:text-2xl md:tracking-tight md:text-center md:leading-9"
+      class="max-w-2xl pb-8 mx-auto text-lg leading-6 md:text-2xl md:tracking-tight md:text-center md:leading-9"
     >
       msyntax@proton.me <br />
       x@moonsyntax.com
