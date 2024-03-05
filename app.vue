@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen bg-black text-white">
-    <div class="m-auto p-8 container font-bold text-base  lg:text-xl tracking-widest uppercase">
+    <div class="m-auto p-4 container font-bold tracking-widest uppercase">
       <div class="flex items-center justify-center space-x-4 lg:space-x-6">
         <NuxtLink v-if="route.path !== '/'" to="/" class="navlinks"
           >HOME</NuxtLink
