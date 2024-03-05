@@ -1,6 +1,6 @@
 <template>
-	<div class="p-5 my-20 m-auto">
-		<div class="flex flex-wrap justify-between items-center">
+	<div class="p-5 m-auto my-20">
+		<div class="flex flex-wrap items-center justify-between">
 			<div class="w-full lg:w-2/4">
 				<anim class="mx-auto" loc="/anim/contact.json" />
 
@@ -12,11 +12,11 @@
 			<div class="w-full lg:w-2/4">
 				<div class="max-w-xs mx-auto mb-10">
 					<span class="block mb-6 text-xl lg:text-5xl font-heading ">TEAM</span>
-					<h4 class="text-xl lg:text-3xl font-heading font-semibold">info@moonsyntax.com</h4>
+					<h4 class="text-xl font-semibold lg:text-3xl font-heading">info@moonsyntax.com</h4>
 				</div>
 				<div class="max-w-xs mx-auto">
 					<span class="block mb-6 text-xl lg:text-5xl font-heading ">MANAGER</span>
-					<h4 class="text-xl lg:text-3xl font-heading font-semibold">x@moonsyntax.com</h4>
+					<h4 class="text-xl font-semibold lg:text-3xl font-heading">x@moonsyntax.com</h4>
 				</div>
 			</div>
 		</div>

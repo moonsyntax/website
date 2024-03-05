@@ -2,7 +2,7 @@
 	<div>
 		<a :href="link">
 			<div
-				class="tracking-wider mr-3 px-4 py-2  text-base text-center text-black no-underline  align-middle bg-yellow-300 rounded-lg cursor-pointer hover:bg-black hover:text-white transform transition-transform duration-300 hover:scale-110"
+				class="px-4 py-2 mr-3 text-base tracking-wider text-center text-black no-underline align-middle transition-transform duration-300 transform bg-yellow-300 rounded-lg cursor-pointer hover:bg-black hover:text-white hover:scale-110"
 			>
 				{{ textinput }}
 			</div>

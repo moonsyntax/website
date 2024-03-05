@@ -1,33 +1,33 @@
 <template>
   <div>
-    <section class="py-12 md:py-24 lg:py-32 bg-black">
-      <div class="max-w-md lg:max-w-none mx-auto">
-        <div class="flex flex-wrap -mx-4 mb-20 items-center">
-          <div class="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
-            <h3 class="font-heading max-w-md text-6xl font-bold text-yellow-500">
+    <section class="py-12 bg-black md:py-24 lg:py-32">
+      <div class="max-w-md mx-auto lg:max-w-none">
+        <div class="flex flex-wrap items-center mb-20 -mx-4">
+          <div class="w-full px-4 mb-8 lg:w-1/2 lg:mb-0">
+            <h3 class="max-w-md text-6xl font-bold text-yellow-500 font-heading">
               IT CONSULTING
             </h3>
           </div>
-          <div class="w-full lg:w-1/2 px-4">
+          <div class="w-full px-4 lg:w-1/2">
             <Anim loc="/anim/dsei.json" />
           </div>
         </div>
         <div class="flex flex-wrap -mx-4">
-          <div class="w-full lg:w-1/3 px-4 mb-12 lg:mb-0">
+          <div class="w-full px-4 mb-12 lg:w-1/3 lg:mb-0">
             <Featdis
               id="1"
               title="Workflow Automation"
               subtitle="Automate repetitive tasks, streamline operations. Custom solutions for data entry, document processing, and more."
             />
           </div>
-          <div class="w-full lg:w-1/3 px-4 mb-12 lg:mb-0">
+          <div class="w-full px-4 mb-12 lg:w-1/3 lg:mb-0">
             <Featdis
               id="2"
               title="Data Analysis"
               subtitle="Expert data analysis, visualization, and reporting. Custom solutions for data mining, predictive analytics, and more."
             />
           </div>
-          <div class="w-full lg:w-1/3 px-4">
+          <div class="w-full px-4 lg:w-1/3">
             <Featdis
               id="3"
               title="Bookkeeping"
@@ -39,34 +39,34 @@
       </div>
     </section>
 
-    <section class="py-12 md:py-24 lg:py-32 bg-black">
-      <div class="max-w-md lg:max-w-none mx-auto">
-        <div class="flex flex-wrap -mx-4 mb-20 items-center">
-          <div class="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
-            <h3 class="font-heading max-w-md text-6xl font-bold text-yellow-500">
+    <section class="py-12 bg-black md:py-24 lg:py-32">
+      <div class="max-w-md mx-auto lg:max-w-none">
+        <div class="flex flex-wrap items-center mb-20 -mx-4">
+          <div class="w-full px-4 mb-8 lg:w-1/2 lg:mb-0">
+            <h3 class="max-w-md text-6xl font-bold text-yellow-500 font-heading">
               COMPUTER FORENSICS
             </h3>
           </div>
-          <div class="w-full lg:w-1/2 px-4">
+          <div class="w-full px-4 lg:w-1/2">
             <Anim loc="/anim/circ.json" />
           </div>
         </div>
         <div class="flex flex-wrap -mx-4">
-          <div class="w-full lg:w-1/3 px-4 mb-12 lg:mb-0">
+          <div class="w-full px-4 mb-12 lg:w-1/3 lg:mb-0">
             <Featdis
               id="1"
               title="Lost Crypto Recovery"
               subtitle="Reclaim lost cryptocurrencies. Expert assistance for forgotten passwords, inaccessible wallets, ensuring streamlined recovery."
             />
           </div>
-          <div class="w-full lg:w-1/3 px-4 mb-12 lg:mb-0">
+          <div class="w-full px-4 mb-12 lg:w-1/3 lg:mb-0">
             <Featdis
               id="2"
               title="Hacked Crypto Recovery"
               subtitle="Restore hacked assets, fortify security. Expert investigation, recovery strategies for compromised accounts, thefts."
             />
           </div>
-          <div class="w-full lg:w-1/3 px-4">
+          <div class="w-full px-4 lg:w-1/3">
             <Featdis
               id="3"
               title="Blockchain Forensics"
@@ -74,7 +74,7 @@
             />
           </div>
 
-          <div class="w-full lg:w-1/3 px-4 mb-12 lg:mb-0">
+          <div class="w-full px-4 mb-12 lg:w-1/3 lg:mb-0">
             <Featdis
               id="4"
               title="Digital Forensics"
@@ -82,7 +82,7 @@
             />
           </div>
 
-          <div class="w-full lg:w-1/3 px-4 mb-12 lg:mb-0">
+          <div class="w-full px-4 mb-12 lg:w-1/3 lg:mb-0">
             <Featdis
               id="5"
               title="Mobile Forensics"
@@ -93,41 +93,41 @@
       </div>
     </section>
 
-    <section class="py-12 md:py-24 lg:py-32 bg-black">
-      <div class="max-w-md lg:max-w-none mx-auto">
-        <div class="flex flex-wrap -mx-4 mb-20 items-center">
-          <div class="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
-            <h3 class="font-heading max-w-md text-6xl font-bold text-yellow-500">
+    <section class="py-12 bg-black md:py-24 lg:py-32">
+      <div class="max-w-md mx-auto lg:max-w-none">
+        <div class="flex flex-wrap items-center mb-20 -mx-4">
+          <div class="w-full px-4 mb-8 lg:w-1/2 lg:mb-0">
+            <h3 class="max-w-md text-6xl font-bold text-yellow-500 font-heading">
               PROJECT DEVELOPMENT
             </h3>
           </div>
-          <div class="w-full lg:w-1/2 px-4">
+          <div class="w-full px-4 lg:w-1/2">
             <Anim loc="/anim/work.json" />
           </div>
         </div>
         <div class="flex flex-wrap -mx-4">
-          <div class="w-full lg:w-1/3 px-4 mb-12 lg:mb-0">
+          <div class="w-full px-4 mb-12 lg:w-1/3 lg:mb-0">
             <Featdis
               id="01"
               title="Smart Contract Development"
               subtitle="Custom smart contract development, deployment, and auditing. Tailored solutions for decentralized applications, tokenization, and more."
             />
           </div>
-          <div class="w-full lg:w-1/3 px-4 mb-12 lg:mb-0">
+          <div class="w-full px-4 mb-12 lg:w-1/3 lg:mb-0">
             <Featdis
               id="02"
               title="Token Development"
               subtitle="Token creation, issuance, and management. Customized token development, including security tokens, utility tokens, and more."
             />
           </div>
-          <div class="w-full lg:w-1/3 px-4">
+          <div class="w-full px-4 lg:w-1/3">
             <Featdis
               id="03"
               title="Decentralized Applications"
               subtitle="Custom DApp development, deployment, and maintenance. Expert solutions for decentralized finance, NFTs, and more."
             />
           </div>
-          <div class="w-full lg:w-1/3 px-4">
+          <div class="w-full px-4 lg:w-1/3">
             <Featdis
               id="04"
               title="Blockchain Consulting"
@@ -135,7 +135,7 @@
             />
           </div>
 
-          <div class="w-full lg:w-1/3 px-4">
+          <div class="w-full px-4 lg:w-1/3">
             <Featdis
               id="05"
               title="Blockchain Integration"
@@ -143,7 +143,7 @@
             />
           </div>
 
-          <div class="w-full lg:w-1/3 px-4">
+          <div class="w-full px-4 lg:w-1/3">
             <Featdis
               id="06"
               title="Blockchain Security"
@@ -151,7 +151,7 @@
             />
           </div>
 
-          <div class="w-full lg:w-1/3 px-4">
+          <div class="w-full px-4 lg:w-1/3">
             <Featdis
               id="07"
               title="Bot Development"
@@ -159,7 +159,7 @@
             />
           </div>
 
-          <div class="w-full lg:w-1/3 px-4">
+          <div class="w-full px-4 lg:w-1/3">
             <Featdis
               id="08"
               title="NFT Development"
@@ -167,7 +167,7 @@
             />
           </div>
 
-          <div class="w-full lg:w-1/3 px-4">
+          <div class="w-full px-4 lg:w-1/3">
             <Featdis
               id="09"
               title="Website Development"
@@ -175,7 +175,7 @@
             />
           </div>
 
-          <div class="w-full lg:w-1/3 px-4">
+          <div class="w-full px-4 lg:w-1/3">
             <Featdis
               id="10"
               title="Mobile App Development"
@@ -183,7 +183,7 @@
             />
           </div>
 
-          <div class="w-full lg:w-1/3 px-4">
+          <div class="w-full px-4 lg:w-1/3">
             <Featdis
               id="11"
               title="Desktop App Development"
@@ -191,7 +191,7 @@
             />
           </div>
 
-          <div class="w-full lg:w-1/3 px-4">
+          <div class="w-full px-4 lg:w-1/3">
             <Featdis
               id="12"
               title="API Development"
@@ -199,7 +199,7 @@
             />
           </div>
 
-          <div class="w-full lg:w-1/3 px-4">
+          <div class="w-full px-4 lg:w-1/3">
             <Featdis
               id="13"
               title="E-commerce Development"

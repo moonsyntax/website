@@ -31,16 +31,16 @@ useSeoMeta({
 
 <template>
 	<div>
-		<div class="my-20 py-10 rounded-2xl">
+		<div class="py-10 my-20 rounded-2xl">
 			<ContentRenderer :value="post">
 				<template #empty>
 					<div class="m-auto my-18">
 						<ContentList v-slot="{ list }">
-							<div class="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:items-center">
+							<div class="grid grid-cols-1 gap-5 lg:grid-cols-2 lg:items-center">
 								<div v-for="article in list" :key="article._path" class="p-2">
-									<a class="group block transform rounded-lg  p-6 transition duration-500 hover:-translate-y-2"
+									<a class="block p-6 transition duration-500 transform rounded-lg group hover:-translate-y-2"
 										:href="article._path">
-										<img class="mb-6 w-auto h-auto rounded-lg" :src="article.image" />
+										<img class="w-auto h-auto mb-6 rounded-lg" :src="article.image" />
 										<h3 class="mb-6 text-3xl font-semibold">
 											{{ article.title }}
 										</h3>
@@ -50,7 +50,7 @@ useSeoMeta({
 										</p>
 										<p class="font-medium uppercase">
 											<span v-for="(tag, index) in article.tags" :key="index"
-												class="px-2 py-1 m-1 bg-yellow-200 rounded text-gray-700">
+												class="px-2 py-1 m-1 text-gray-700 bg-yellow-200 rounded">
 												{{ tag }}
 											</span>
 										</p>
@@ -70,17 +70,17 @@ useSeoMeta({
 						</span>
 					</div>
 
-					<div class="mt-2 mb-6 text-4xl lg:text-5xl font-bold font-heading">
+					<div class="mt-2 mb-6 text-4xl font-bold lg:text-5xl font-heading">
 						{{ post.title }}
 					</div>
 				</div>
 
 				<img :src="post.image"
-					class="m-auto w-full h-auto hover:scale-110 transition delay-150 duration-300 ease-in-out" />
+					class="w-full h-auto m-auto transition duration-300 ease-in-out delay-150 hover:scale-110" />
 
 				<div class="my-10"></div>
 
-				<div class="my-20  max-w-4xl m-auto p-8 rounded-2xl">
+				<div class="max-w-4xl p-8 m-auto my-20 rounded-2xl">
 					<ContentRendererMarkdown :value="post" />
 				</div>
 

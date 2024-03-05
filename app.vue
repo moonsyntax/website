@@ -1,6 +1,6 @@
 <template>
-  <div class="min-h-screen bg-black text-white">
-    <div class="m-auto p-4 container font-bold tracking-widest uppercase">
+  <div class="min-h-screen text-white bg-black">
+    <div class="container p-5 m-auto font-bold tracking-widest uppercase">
       <div class="flex items-center justify-center space-x-4 lg:space-x-6">
         <NuxtLink v-if="route.path !== '/'" to="/" class="navlinks"
           >HOME</NuxtLink
@@ -11,7 +11,7 @@
       </div>
     </div>
 
-    <div class="m-auto p-5 max-w-6xl">
+    <div class="max-w-6xl p-5 m-auto">
       <NuxtPage />
     </div>
   </div>
