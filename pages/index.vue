@@ -1,9 +1,9 @@
 <template>
   <section class="py-5 lg:py-20">
     <div class="flex flex-wrap">
-      <div class="w-full p-4 lg:w-1/2"><Anim loc="/anim/home.json" /></div>
+      <div class="w-full lg:w-1/2"><Anim loc="/anim/home.json" /></div>
 
-      <div class="w-full p-4 lg:w-1/2">
+      <div class="w-full lg:w-1/2">
         <div
           class="flex flex-col items-stretch justify-center h-full sm:items-start"
         >
