@@ -1,6 +1,6 @@
 <template>
-	<div>
-		<div class="p-4 m-auto my-20">
+    <section class="py-12 bg-black md:py-24 lg:py-32">
+		<div class="p-4 m-auto my-8">
 			<div class="flex flex-wrap items-center -m-6">
 				<div class="w-full p-6 md:w-1/2">
 					<div class="max-w-lg">
@@ -50,7 +50,7 @@
 				</div>
 			</ContentList>
 		</div>
-	</div>
+	</section>
 </template>
 
 <script setup lang="ts">

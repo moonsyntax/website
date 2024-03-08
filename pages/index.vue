@@ -8,11 +8,11 @@
           class="flex flex-col items-stretch justify-center h-full sm:items-start"
         >
           <div
-            class="my-5 text-lg font-bold tracking-widest text-yellow-300 lg:text-5xl"
+            class="my-5 text-lg font-bold tracking-widest text-yellow-300 lg:text-7xl"
           >
             MOON {SYNTAX}
           </div>
-          <div class="my-3 font-mono text-lg tracking-wide lg:text-xl">
+          <div class="my-3 font-mono text-lg tracking-tight lg:text-2xl">
             We stand as a beacon of innovation, harnessing the collective
             expertise of industry leaders to empower the digital age of finance
             technology. With a unique blend of mentorship, funding, coding
@@ -26,9 +26,6 @@
             </div>
             <div class="relative inline-block mr-3">
               <butx textinput="Medium" link="https://medium.com/moonsyntax" />
-            </div>
-            <div class="relative inline-block mr-3">
-              <butx textinput="Github" link="https://github.com/moonsyntax" />
             </div>
           </div>
         </div>
